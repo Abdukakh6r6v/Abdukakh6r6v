@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <!-- logo.png replaced by the image name-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Telegraph</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: SourceSans;
+  src: url(SourceSans3-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Medium.ttf);
+}
+
+header .container {
+  padding: 20px 70px;
+}
+
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container nav a:first-child{
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FF0043;
+}
+
+header .container nav a:last-child {
+  padding: 15px 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 23px;
+  background-color: #FF0043;
+  box-shadow: 0px 0px 20px #FF0043;
+  color: white;
+}
+
+header .container nav a:last-child:hover {
+  transition: all 0.4s;
+  box-shadow: none;
+}
+
+@media (max-width:390px) and (min-width:342px) {
+  header .container {
+    padding: 20px 20px;
+  }
+  header .container nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width:430px) and (min-width:415px) {
+  header .container {
+    padding:30px;
+  }
+  
+  header .container nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:700px) and (min-width:391px) {
+  header .container {
+    padding: 20px 40px;
+  }
+
+  header .container nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+main .about-website .container {
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+}
+
+main .about-website .container .about-website-img {
+  width: 50%;
+}
+
+main .about-website .container .about-website-img img {
+  width: 100%;
+}
+
+main .about-website .container .about-website-text {
+  width: 50%;
+  padding: 10px;
+}
+
+main .about-website .container .about-website-text h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 60px;
+  color: #00194A;
+}
+
+main .about-website .container .about-website-text p {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+  color: #00194A;
+}
+
+main .about-website .container .about-website-text a {
+  line-height: 120px;
+  padding: 20px 50px;
+  font-family: SourceSans;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #FF0043;
+  color: white;
+  background-color: #FF0043;
+}
+
+main .about-website .container .about-website-text a:hover {
+  transition: all 0.4s;
+  box-shadow: none;
+}
+
+@media (min-width:768) and (max-width:1024px) {
+  main .about-website .container {
+    flex-direction: row;
+    align-items: center;
+  }
+  main .about-website .container .about-website-text h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width:768px) {
+  main .about-website .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .about-website .container .about-website-text a {
+    padding: 10px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width:515px) {
+  main .about-website .container .about-website-text a {
+    padding: 10px;
+    font-size: 7px;
+  }
+  main .about-website .container .about-website-text h1 {
+    font-size: 17px;
+  }
+  main .about-website .container .about-website-text p {
+    font-size: 12px;
+  }
+}
+
+main .programing-download .container {
+  padding: 100px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+main .programing-download .container .programing-download-card {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+}
+
+main .programing-download .container .programing-download-card i {
+  font-size: 33px;
+}
+
+main .programing-download .container .programing-download-card h1 {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  color: #00194A;
+}
+
+main .programing-download .container .programing-download-card p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  color: #00194A;
+}
+
+main .programing-download .container .programing-download-card a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #7D89A1;
+}
+
+main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+  padding-left: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* @media (max-width:375px) and (min-width:342px) {
+main .programing-download .container {
+    padding: 0px;
+    flex-flow: column;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 15px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 12px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 8px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 8px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:390px) and (min-width:376px) {
+  main .programing-download .container {
+    padding: 0px;
+    flex-flow: column;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 17px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 14px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 9px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 9px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:414px) and (min-width:391px) {
+  main .programing-download .container {
+    padding: 0px;
+    flex-flow: column;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 20px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 15px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 10px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 10px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:430px) and (min-width:415px) {
+  main .programing-download .container {
+    padding: 0px;
+    flex-flow: column;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 25px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 12px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 11px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:540px) and (min-width:431px) {
+  main .programing-download .container {
+    padding: 0px;
+    flex-flow: column;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 28px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 18px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 14px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 14px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:768px) and (min-width:541px) {
+  main .programing-download .container {
+    flex-direction: column;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 30px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 20px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    padding-left: 300px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:853px) and (min-width:769px) {
+  main .programing-download .container {
+    flex-direction: row;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 33px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 22px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:1024px) and (min-width:853px) {
+  main .programing-download .container {
+    flex-direction: row;
+  }
+
+  main .programing-download .container .programing-download-card i {
+    font-size: 33px;
+  }
+
+  main .programing-download .container .programing-download-card h1 {
+    font-size: 22px;
+  }
+
+  main .programing-download .container .programing-download-card p {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card a {
+    font-size: 16px;
+  }
+
+  main .programing-download .container .programing-download-card .fa-cloud-arrow-down {
+    font-size: 20px;
+  }
+} */
+
+main .messaging-section .container {
+  padding: 100px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+main .messaging-section .container .message-preview {
+  width: 50%;
+  padding: 280px 0px 0px 130px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+  background-image: url(02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles {
+  width: 400px;
+  padding: 12px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+  background-color: white;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles:nth-child(2) {
+  margin-left: 30px;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles:last-child {
+  margin-left: 80px;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles .bubble-avatar img {
+  border-radius: 50%;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles .bubble-content h1{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00194A;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles .bubble-content p {
+  line-height: 40px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #00194A;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles .bubble-notification h4 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #00194A;
+}
+
+main .messaging-section .container .message-preview .chat-bubbles .bubble-notification p {
+  width: 30px;
+  height: 30px;
+  margin: 20px 0 0 30px;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 8px;
+  background: #FF0043;
+  color: white;
+}
+
+main .messaging-section .container .message-info {
+  width: 50%;
+}
+
+main .messaging-section .container .message-info h1 {
+  padding: 0 0 20px 0;
+  font-family: Roboto;
+  font-size: clamp(24px, 5vw, 35px);
+  font-weight: 500;
+  color: #00194A;
+}
+
+main .messaging-section .container .message-info p {
+  padding: 10px 0;
+  font-family: Roboto;
+  font-size: clamp(14px, 3vw, 18px);
+  font-weight: lighter;
+  color: #00194A;
+}
+
+@media (max-width:1300px) {
+  main .messaging-section .container {
+    padding: 80px 0px;
+    flex-direction: column;
+  }
+  main .messaging-section .container .message-preview {
+    padding: 200px 0px 0px 0px;
+  }
+}
+
+@media (min-width:660px) and (max-width:1067px) {
+  .messaging-section .container .message-preview {
+    background-image: none;
+  }
+  main .messaging-section .container .message-preview .chat-bubbles {
+    margin-left: 0;
+  }
+}
+
+@media (min-width:342px) and (max-width:660px) {
+  main .messaging-section .container {
+    padding: 80px 0px;
+    flex-direction: column;
+  }
+
+  main .messaging-section .container .message-preview {
+    padding: 200px 0px 0px 0px;
+  }
+
+  main .messaging-section .container .message-preview .chat-bubbles {
+    padding: 10px 10px 30px 10px;
+    width: 250px;
+    flex-direction: column;
+  }
+
+  main .messaging-section .container .message-preview .chat-bubbles .bubble-notification p {
+    width: 30px;
+    height: 30px;
+    margin: -25px 70px;
+    line-height: 30px;
+  }
+}
+
+main .services-security .container{
+  padding: 100px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+main .services-security .container .services-info{
+  width: 50%;
+  flex: 1;
+}
+
+main .services-security .container .services-info h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  color: #00194A;
+}
+
+
+main .services-security .container .services-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #00194A;
+}
+
+main .services-security .container .cards-explanation-for-person {
+  width: 50%;
+  height: 300px;
+  flex: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .services-security .container .cards-explanation-for-person .card:first-child {
+  width: 260px;
+  height: 249px;
+  padding:10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+  order: 1;
+}
+
+main .services-security .container .cards-explanation-for-person .card:nth-child(2) {
+  width: 260px;
+  height: 249px;
+  padding:10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+  margin-left: 300px;
+  margin-top: -330px;
+  order: 3;
+}
+
+main .services-security .container .cards-explanation-for-person .card:last-child {
+  width: 260px;
+  height: 249px;
+  padding:10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+  order: 2;
+}
+
+main .services-security .container .cards-explanation-for-person .card i {
+  flex: 1;
+  font-size: 40px;
+}
+
+main .services-security .container .cards-explanation-for-person .card h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00194A;
+}
+
+main .services-security .container .cards-explanation-for-person .card p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #00194A;
+}
+
+@media (max-width:1192px) {
+  main .services-security .container {
+    padding: 100px 10px;
+    flex-direction: column;
+  }
+  main .services-security .container .cards-explanation-for-person {
+    flex-direction: row;
+  }
+  main .services-security .container .cards-explanation-for-person .card:nth-child(2) {
+    margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  main .services-security .container .cards-explanation-for-person {
+    flex-direction: column;
+  }
+}
+
+main .group-for-person .container {
+  padding: 100px 70px 0px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1%;
+}
+
+main .group-for-person .container .image-round {
+  width: 50%;
+}
+
+main .group-for-person .container .image-round .radial {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  scale: 1.1;
+  top: -17rem;
+  left: 100px;
+  overflow: hidden;
+}
+
+main .group-for-person .container .group-about {
+  width: 50%;
+  padding: 150px 0;
+}
+
+main .group-for-person .container .group-about h1{
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  color: #00194A;
+  margin-bottom: 50px;
+}
+
+main .group-for-person .container .group-about p{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #00194A;
+}
+
+@media (max-width:375px) and (min-width:342px) {
+  main .group-for-person .container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+  }
+
+  main .group-for-person .container .group-about {
+    padding: 0;
+    text-align: center;
+  }
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 20px;
+    width: 300px;
+    margin: auto 30px;
+    margin-top: -400px;
+  }
+
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+    width: 300px;
+    margin: 20px 30px;
+  }
+  
+  main .group-for-person .container .image-round .img {
+    width: 260px;
+    margin: 20px auto;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 300px;
+  }
+}
+
+@media (max-width:390px) and (min-width:376px) {
+  main .group-for-person .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main .group-for-person .container .group-about {
+    padding: 0;
+    text-align: center;
+  }
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 20px;
+    width: 300px;
+    margin-top: -300px;
+  }
+
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+    width: 300px;
+    margin: 20px 0;
+  }
+
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 20px;
+  }
+
+  main .group-for-person .container .group-about p {
+    font-size: 12px;
+  }
+
+  main .group-for-person .container .image-round img {
+    width: 280px;
+    padding: auto 18px;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 280px;
+  }
+}
+
+@media (max-width:414px) and (min-width:391px) {
+  main .group-for-person .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main .group-for-person .container .group-about {
+    padding: 0;
+    text-align: center;
+  }
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 20px;
+    width: 300px;
+    margin-top: -300px;
+  }
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+    width: 300px;
+    margin: 20px 0;
+  }
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 25px;
+  }
+
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+  }
+
+  main .group-for-person .container .image-round .img {
+    width: 300px;
+    padding: auto 18px;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 300px;
+  }
+}
+
+@media (max-width:430px) and (min-width:415px) {
+  main .group-for-person .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main .group-for-person .container .group-about {
+    padding: 0;
+  }
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 18px;
+    width: 300px;
+    margin-top: -300px;
+  }
+
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+    width: 300px;
+    margin: 20px 0;
+  }
+
+  main .group-for-person .container .group-about h1 {
+    font-size: 25px;
+  }
+
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+  }
+
+  main .group-for-person .container .image-round .img {
+    width: 320px;
+    padding: auto 16px;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 320px;
+  }
+}
+
+@media (max-width:540px) and (min-width:431px) {
+  main .group-for-person .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main .group-for-person .container .group-about {
+    padding:  0;
+    text-align: center;
+  }
+  main .group-for-person .container .group-about h1 {
+    font-size: 20px;
+    width: 300px;
+    margin-top: -300px;
+  }
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+    width: 300px;
+    margin: 20px 0;
+  }
+  main .group-for-person .container .image-round .img {
+    width: 340px;
+    padding: auto 16px;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 340px;
+  }
+}
+
+@media (max-width:768px) and (min-width:541px) {
+  main .group-for-person .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .group-for-person .container .group-about {
+    padding: 0;
+    text-align: center;
+  }
+  main .group-for-person .container .group-about h1 {
+    font-size: 27px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: -300px;
+  }
+  main .group-for-person .container .group-about p {
+    font-size: 16px;
+    width: 400px;
+    margin: 20px 100px;
+  }
+  main .group-for-person .container .image-round .img {
+    width: 360px;
+    padding: auto 14px;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 360px;
+  }
+}
+
+@media (max-width:853px) and (min-width:769px) {
+  main .group-for-person .container {
+    padding: 0 130px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .group-for-person .container .group-about {
+    padding: 0;
+    text-align: center;
+  }
+  main .group-for-person .container .group-about h1 {
+    font-size: 25px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: -300px;
+  }
+  main .group-for-person .container .group-about p {
+    font-size: 14px;
+    width: 400px;
+    margin: 20px 100px;
+  }
+  main .group-for-person .container .image-round .img {
+    width: 380px;
+    padding: auto 12px;
+  }
+  main .group-for-person .container .image-round .radial img {
+    width: 380px;
+  }
+}
+
+@media (max-width:1024px) and (min-width:853px) {
+  main .group-for-person .container .image-round .img {
+    width: 300px;
+    padding: auto 10px;
+  }
+  main .group-for-person .container .image-round .radial {
+    left: 0;
+    width: 500px;
+    scale: 0.8;
+  }
+}
+
+@media (max-width:1200px) and (min-width:1024px){
+  main .group-for-person .container .image-round .radial {
+    left: 1rem;
+    scale: 0.9;
+  }
+}
+
+footer .container {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .comment-webSite {
+  width: 70%;
+  height: 300px;
+  border-radius: 25px;
+  background-color: #00194A;
+  text-align: center;
+}
+
+footer .container .comment-webSite h1 {
+  padding: 20px 0;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+footer .container .comment-webSite p {
+  padding: 20px 0 40px 0;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #FFFFFF;
+}
+
+footer .container .comment-webSite a {
+  width: 600px;
+  height: 50px;
+  padding: 15px;
+  font-family: SourceSans;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #FF0043;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 30px;
+  line-height: 60px;
+}
+
+footer .container .comment-webSite a:hover {
+  transition: all 0.4s;
+  box-shadow: none;
+}
+
+footer .container .legal-info {
+  padding: 50px 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container .legal-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00194A;
+}
+
+footer .container .legal-info span {
+  word-spacing: 20px;
+}
+
+footer .container .legal-info span a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #00194A;
+}
+
+footer .container .legal-info span a:hover {
+  transition: all 1s;
+  border-bottom: 1px solid #00194A;
+  /* text-decoration: underline #00194A; */
+}
+
+@media (max-width:768px) and (min-width:540px) {
+  footer .container {
+    padding: 0;
+  }
+  footer .container .comment-webSite {
+    padding: 20px;
+  }
+  footer .container .comment-webSite h1 {
+    font-size: 30px;
+    padding: 0px ;
+  }
+  footer .container .comment-webSite a {
+    scale: 0.7;
+  }
+  footer .container .legal-info span {
+    word-spacing: 5px;
+  }
+}
+
+@media (max-width:540px) and (min-width:430px){
+  footer .container {
+    padding: 0;
+  }
+  footer .container .comment-webSite {
+    padding: 50px 0;
+  }
+  footer .container .comment-webSite h1 {
+    font-size: 30px;
+    padding: 0px ;
+  }
+  footer .container .comment-webSite a {
+    line-height: 100px;
+  }
+  footer .container .legal-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .legal-info p {
+    font-size: 5px;
+  }
+  footer .container .legal-info span a{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:430px) and (min-width:414px) {
+  footer .container {
+    padding: 0;
+  }
+  footer .container .comment-webSite {
+    padding: 45px 0;
+  }
+  footer .container .comment-webSite h1 {
+    font-size: 20px;
+    padding: 0px ;
+  }
+  footer .container .comment-webSite a {
+    line-height: 170px;
+  }
+  footer .container .legal-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .legal-info p {
+    font-size: 5px;
+  }
+  footer .container .legal-info span a{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:414px) and (min-width:390px) {
+  footer .container {
+    padding: 0;
+  }
+  footer .container .comment-webSite {
+    padding: 40px 0;
+  }
+  footer .container .comment-webSite h1 {
+    font-size: 20px;
+    padding: 0px ;
+  }
+  footer .container .comment-webSite a {
+    line-height: 150px;
+  }
+  footer .container .legal-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .legal-info p {
+    font-size: 5px;
+  }
+  footer .container .legal-info span a{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:390px) and (min-width:375px) {
+  footer .container {
+    padding: 0;
+  }
+  footer .container .comment-webSite {
+    padding: 35px 0;
+  }
+  footer .container .comment-webSite h1 {
+    font-size: 17px;
+    padding: 0px ;
+  }
+
+  footer .container .comment-webSite a {
+    line-height: 130px;
+  }
+
+  footer .container .legal-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .legal-info p {
+    font-size: 5px;
+  }
+  footer .container .legal-info span a{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:375px) and (min-width:342px) {
+  footer .container {
+    padding: 0;
+  }
+  footer .container .comment-webSite {
+    padding: 30px 0 0 0;
+  }
+  footer .container .comment-webSite h1 {
+    font-size: 17px;
+    padding: 0px ;
+  }  
+  footer .container .comment-webSite a {
+    line-height: 100px;
+  }
+
+  footer .container .legal-info{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .legal-info p {
+    font-size: 5px;
+  }
+  footer .container .legal-info span a{
+    font-size: 10px;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html">Telegraph</a>
+        <a href="404error.html">Try Beta</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="about-website">
+      <div class="container">
+        <div class="about-website-text">
+          <h1>Simple. Secure. Reliable messaging.</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+          <a href="404error.html">Request For Early Access</a>
+        </div>
+        <div class="about-website-img">
+          <img src="01.png" alt="#">
+        </div>
+      </div>
+    </section>
+    <section class="programing-download">
+      <div class="container">
+        <div class="programing-download-card">
+          <i class="fa-brands fa-android" style="color: #ff0043;"></i>
+          <h1>Android</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+          <a href="404error.html">Try Beta For Free</a>
+          <i class="fa-solid fa-cloud-arrow-down" style="color: #ff0043;"></i>
+        </div>
+        <div class="programing-download-card">
+          <i class="fa-brands fa-apple" style="color: #ff0043;"></i>
+          <h1>iphone</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+          <a href="404error.html">Try Beta For Free</a>
+          <i class="fa-solid fa-cloud-arrow-down" style="color: #ff0043;"></i>
+        </div>
+        <div class="programing-download-card">
+          <i class="fa-brands fa-apple" style="color: #ff0043;"></i>
+          <i class="fa-brands fa-windows" style="color: #ff0043;"></i>
+          <h1>Mac or Windows</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+          <a href="404error.html">Try Beta For Free</a>
+          <i class="fa-solid fa-cloud-arrow-down" style="color: #ff0043;"></i>
+        </div>
+      </div>
+    </section>
+    <section class="messaging-section">
+      <div class="container">
+        <div class="message-preview">
+          <div class="chat-bubbles">
+              <div class="bubble-avatar">
+                <img src="Avatar1.png" alt="#">
+              </div>
+              <div class="bubble-content">
+                <h1>Wife</h1>
+                <p>It is a long established fact that a…</p>
+              </div>
+              <div class="bubble-notification">
+                <h4>11:39PM</h4>
+                <p>10</p>
+              </div>
+          </div>
+          <div class="chat-bubbles">
+              <div class="bubble-avatar">
+                <img src="Avatar2.png" alt="#">
+              </div>
+              <div class="bubble-content">
+                <h1>Girlfriend</h1>
+                <p>It is a long established fact that a…</p>
+              </div>
+              <div class="bubble-notification">
+                <h4>11:39PM</h4>
+              </div>
+          </div>
+          <div class="chat-bubbles">
+              <div class="bubble-avatar">
+                <img src="Avatar3.png" alt="#">
+              </div>
+              <div class="bubble-content">
+              <h1>Unknown Person</h1>
+              <p>It is a long established fact that a…</p>
+              </div>
+              <div class="bubble-notification">
+              <h4>11:39PM</h4>
+              </div>
+          <div>
+        </div>
+          </div>
+        </div>
+        <div class="message-info">
+          <h1>Simple, Personal, Real Time Messaging</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+        </div>
+      </div>
+    </section>
+    <section class="services-security">
+      <div class="container">
+        <div class="services-info">
+          <h1>Sharing Cool Stuff With Your Community</h1><br>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p><br><br>
+          <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+        </div>
+        <div class="cards-explanation-for-person">
+          <div class="card">
+            <i style="color: #ff0043;" class="fa-solid fa-shield-halved"></i><br><br>
+            <h3>Security by Default</h3><br><br>
+            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+          </div>
+          <div class="card">
+            <i style="color: #ff0043;" class="fa-solid fa-file"></i><br><br>
+            <h3>Document Share</h3><br><br>
+            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+          </div>
+          <div class="card">
+            <i style="color: #ff0043;" class="fa-solid fa-comment-dots"></i><br><br>
+            <h3>Say What's On Your Mind</h3><br><br>
+            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="group-for-person">
+      <div class="container">
+        <div class="image-round">
+          <img src="03.png" alt="#">
+          <div class="radial">
+            <img src="04.png" alt="#">
+          </div>
+        </div>
+        <div class="group-about">
+          <h1>Keep In Touch With The Groups Of People.</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="comment-webSite">
+        <h1>Let’s Start With Quick App</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <a href="404error.html">Request For Early Access</a>
+      </div>
+      <div class="legal-info">
+        <p>© Telegraph. 2020 — All rights reserved.</p>
+        <span>
+          <a href="404error.html">Twitter</a>
+          <a href="404error.html">Instagram</a>
+          <a href="404error.html">Facebook</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
