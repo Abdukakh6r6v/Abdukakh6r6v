@@ -1,0 +1,5841 @@
+@font-face {
+  font-family: Arsenal;
+  src: url(Fonts/Arsenal-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat2;
+  src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@media (max-width: 500px) {
+  .benefits-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .benefits-grid-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .benefits-grid-img img {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .benefits-grid-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .benefits-grid-item1 img {
+    width: 20%;
+  }
+
+  .benefits-grid-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .benefits-grid-item2 img {
+    width: 20%;
+  }
+
+  .benefits-grid-item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .benefits-grid-item3 img {
+    width: 20%;
+  }
+
+  .benefits-grid-item4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .benefits-grid-item4 img {
+    width: 20%;
+  }
+
+  .benefits-grid-item5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .benefits-grid-item5 img {
+    width: 20%;
+  }
+
+  .benefits-grid-item6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .benefits-grid-item6 img {
+    width: 20%;
+  }
+
+  .Appearance-Two-Rewievs {
+    display: none;
+  }
+}
+
+/* The Benefis Grid section to Responsive */
+
+@media (max-width: 575px) {
+  /* ===================================This is next page is (SelectionProduct)==================================== */
+
+  .why-choose h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: bold;
+    color: #463830;
+    text-align: center;
+  }
+
+  .navigation-product {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .LinkOils {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #463830;
+    border-bottom: 1px solid #7e5531;
+  }
+
+  .LinkEquipment {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #4638308c;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .benefits-grid-img {
+    grid-area: 3 / 6 / 5 / 8;
+    margin: auto;
+  }
+
+  .benefits-grid .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .benefits-grid .items img {
+    width: 30%;
+    height: auto;
+  }
+
+  .benefits-grid .items h4 {
+    text-align: center;
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .benefits-grid-item1 {
+    grid-area: 2 / 2 / 3 / 5;
+  }
+
+  .benefits-grid-item2 {
+    grid-area: 4 / 1 / 5 / 4;
+  }
+
+  .benefits-grid-item3 {
+    grid-area: 6 / 2 / 7 / 5;
+  }
+
+  .benefits-grid-item4 {
+    grid-area: 2 / 9 / 3 / 12;
+  }
+
+  .benefits-grid-item5 {
+    grid-area: 4 / 10 / 5 / 13;
+  }
+
+  .benefits-grid-item6 {
+    grid-area: 6 / 9 / 7 / 12;
+  }
+
+  .benefits-grid-img img {
+    width: 150%;
+    height: auto;
+  }
+
+  .how-to-prepare h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .prepare-step-to-step {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .prepares {
+    text-align: start;
+  }
+
+  .prepares p {
+    font-family: Montserrat2;
+    font-size: 17px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .prepares h5 {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next page is (OurOils)==================================== */
+  .our-oils h1 {
+    text-align: center;
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .CompactAbout--next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .next--card--compact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .next--card--compact img {
+    width: 10%;
+    height: auto;
+  }
+
+  .next--card--compact h4 {
+    font-family: Arsenal;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .product-datails {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .product-details__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 2rem;
+    flex: 1;
+  }
+
+  .product-details__left h1 {
+    text-align: center;
+    font-family: Arsenal;
+    font-weight: 700;
+    font-size: clamp(30px, 4vw, 48px);
+    color: #463830;
+  }
+
+  .product-details__left p {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .product-details__left__span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .product-details__left__span h4 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 500;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .product-details__left__span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .product-details__image {
+    width: 100%;
+  }
+
+  .product-img.normal {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .product-img.small {
+    width: 60%;
+    max-width: 100%;
+  }
+
+  .product-details__image img {
+    width: 40%;
+    height: auto;
+  }
+
+  .product-details__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .product-details__right h4 {
+    font-family: Montserrta2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .checkbox-to-product {
+    display: flex;
+    gap: 0.5rem;
+    align-items: end;
+  }
+
+  .checkbox-to-product input [type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7e5531;
+    accent-color: #7e5531;
+    cursor: pointer;
+  }
+
+  .checkbox-to-product label {
+    font-family: Montserrta2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .checkbox-to-product label span {
+    font-size: 13px;
+  }
+
+  .BuyTheBottle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .BuyTheBottle span {
+    font-family: Arsenal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .BuyTheBottle button {
+    padding: 13px 35px;
+    border: none;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #2b3d2e;
+    border-radius: 2px;
+  }
+
+  .BuyTheBottle button img {
+    background: none;
+    padding-right: 15px;
+  }
+
+  .Link-To-ButTheBottle {
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+  }
+
+  /* ===================================This is next page is (RawPressed)==================================== */
+
+  .rawpressed-text-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 28px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .rawpressed-text-section span button {
+    padding: 8px 20px;
+    border-radius: 37px;
+    border: 1px solid #91765e;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .Pressed-Oils-Before-Card {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Pressed-Oils-Before-Card h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card span {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card button {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 20px 0;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-After-Card {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 20px 0;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    text-transform: uppercase;
+  }
+
+  .Link-to-catalog {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .LinkToCatalog {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #463830;
+  }
+
+  .LinkToCatalog img {
+    padding-left: 10px;
+  }
+
+  /* ===================================This is next page is (OilPresses)==================================== */
+
+  .OilPresses-Text {
+    text-align: center;
+  }
+
+  .OilPresses-Text h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Presses-Items {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.3rem;
+  }
+
+  .Oil-Presses-Item {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 1rem;
+  }
+
+  .Oil-Presses-Item h4 {
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .PlayedVideo {
+    width: 100%;
+    height: 220px;
+    border-radius: 30px;
+    background-color: #2b3d2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PlayedVideo img {
+    background: none;
+    cursor: pointer;
+  }
+
+  .Press-Moduls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+
+  .Presses-Machine-One {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 1.5rem;
+    padding: 10px;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+  }
+
+  .Press-About-Text {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 2rem;
+  }
+
+  .About-Text-Head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .About-Text-Head h1 {
+    font-family: Arsenal;
+    font-size: 35px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Text-Head img {
+    width: 20%;
+  }
+
+  .About-Text-Bottom {
+    text-align: start;
+  }
+
+  .About-Text-Bottom p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Press-Machine-Equipment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .Press-Machine-Equipment h3 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 500;
+    color: #91765e;
+  }
+
+  .Press-Machine-Equipment ul {
+    display: flex;
+    gap: 1rem;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .Press-Machine-Equipment ul li {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+    list-style: circle;
+  }
+
+  .Press-Machine-BuySection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .Press-Machine-BuySection img {
+    width: 40%;
+  }
+
+  .Press-Machine-BuySection span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 1rem;
+  }
+
+  .Press-Machine-BuySection span button {
+    font-family: Arsenal;
+    font-size: 25px;
+    color: #463830;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  .PressMachine-BuySeticon-Link {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .PressMachine-BuySeticon-Link img {
+    width: 30%;
+  }
+
+  .Presses-Machine-Two {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 1.5rem;
+    padding: 10px;
+    border: 2px solid #91765e;
+    border-radius: 30px;
+  }
+
+  .Press-Machine-TwoImg {
+    width: 110%;
+  }
+
+  .Slider-Presses-Machine {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .Slider-Arrow-Left {
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    padding: 10px 25px;
+  }
+
+  .Slider-Arrow-Right {
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    padding: 10px 25px;
+  }
+
+  /* ===================================This is next page is (Additions)==================================== */
+
+  .Additions-Sliders-True {
+    display: none;
+  }
+
+  .Additions-Head-Text {
+    text-align: center;
+  }
+
+  .Additions-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 36px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .Oil-Raw-PressedAlmond-Card img {
+    width: 100%;
+  }
+
+  .Oil-Raw-PressedAlmond-Card h4 {
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Card span {
+    font-family: Arsenal;
+    font-size: 700;
+    font-weight: 20px;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Card button {
+    font-family: Monserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    outline: none;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .Oil-Raw-PressedAlmond-Next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Next-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .Oil-Raw-PressedAlmond-Next-Card img {
+    width: 100%;
+  }
+
+  .Oil-Raw-PressedAlmond-Next-Card h4 {
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Next-Card span {
+    font-family: Arsenal;
+    font-size: 700;
+    font-weight: 20px;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Next-Card button {
+    font-family: Monserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    outline: none;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .Additions-Sliders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .Additions-Sliders button {
+    background: none;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    color: #463830;
+    padding: 10px 25px;
+  }
+
+  /* ===================================This is next page is (OurProduction)==================================== */
+
+  .Our-Production-Head-Text {
+    text-align: center;
+  }
+
+  .Our-Production-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .The-Path-To-The-Products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Press {
+    padding: 20px;
+    width: 80%;
+    background-color: #f7e9e0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Press img {
+    background: none;
+    width: 50%;
+  }
+
+  .Path-Products-Link-To-Press {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Path-Products-Link-To-Press span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Press img {
+    width: 10%;
+  }
+
+  .The-Path-To-The-Products-Oils {
+    padding: 20px;
+    width: 80%;
+    background-color: #e2f4db;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Oils img {
+    background: none;
+    width: 50%;
+  }
+
+  .The-Path-To-The-Products-Oils img {
+    background: none;
+    width: 50%;
+  }
+
+  .Path-Products-Link-To-Oils {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Path-Products-Link-To-Oils span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Oils img {
+    width: 10%;
+  }
+
+  .The-Path-To-The-Products-Cake {
+    padding: 20px;
+    width: 80%;
+    background-color: #f1d5b7;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Cake img {
+    background: none;
+    width: 50%;
+  }
+
+  .Path-Products-Link-To-Cake {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Path-Products-Link-To-Cake span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Cake img {
+    width: 10%;
+  }
+
+  /* ===================================This is next page is (Reviews)==================================== */
+  .Appearance-Two-Rewievs {
+    display: none;
+  }
+
+  .Reviews-Head-Text {
+    text-align: center;
+  }
+
+  .Reviews-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Reviews-Slider-Section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Reviews-Slider-One-Page {
+    width: 80%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+
+  .Reviews-Slider-Two-Page {
+    width: 80%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+
+  .Reviews-Slider-Three-Page {
+    width: 80%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+
+  .Rewievs-Oil-About-Data {
+    text-align: start;
+  }
+
+  .Rewievs-Oil-About-Data h1 {
+    font-family: Arsenal;
+    font-size: 18px;
+    color: #463830;
+  }
+
+  .Rewievs-Oil-About-Data span {
+    font-family: Montserrat2;
+    font-size: 11px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Rewievs-Oil-About-NewSpaper {
+    text-align: start;
+    padding: 10px 20px 30px;
+    border-bottom: 1px solid #91765e4f;
+  }
+
+  .Rewievs-Oil-About-NewSpaper p {
+    font-family: Montserrat2;
+    font-size: 11px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 10px;
+  }
+
+  .Reviews-Slider-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row;
+  }
+
+  .Reviews-Slider-btn-Left {
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+
+  .Reviews-Slider-btn-Right {
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+
+  /* ===================================This is next page is(QuestionsAndAnswers)==================================== */
+
+  .QuestionsAndAnswers {
+    text-align: center;
+  }
+
+  .QuestionsAndAnswers h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .QuestionsAndAnswers-Comments-One {
+    width: 100%;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .QuestionsAndAnswers-Comments-One span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .QuestionsAndAnswers-Comments-One span h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-One p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-All {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .QuestionsAndAnswers-Comments-All h1 {
+    text-align: start;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-All img {
+    width: 2%;
+  }
+
+  .QuestionsAndAnswers-Comments-Two {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-Comments-Three {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-Comments-Four {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-Comments-Five {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .QuestionsAndAnswers-img img {
+    width: 80%;
+  }
+
+  /* ===================================This is next page is(Footers)==================================== */
+
+  .Footer-Background-Div {
+    background: linear-gradient(to bottom, #e3f2e1 0%, #fdfcf6 100%);
+  }
+
+  .GetConsultation {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background: none;
+  }
+
+  .GetConsultation-Comment {
+    text-align: center;
+    background: transparent;
+  }
+
+  .GetConsultation-Comment h1 {
+    background: transparent;
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .form-control input {
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 2px #91765e solid;
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #463830;
+  }
+
+  .form-control input::placeholder {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: #91765e;
+  }
+
+  .form-control .form-control-label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+    background: none;
+  }
+
+  .form-control .form-control-label span {
+    display: inline-block;
+    font-family: Montserrat2;
+    font-size: 18px;
+    min-width: 5px;
+    color: #463830;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: transparent;
+  }
+
+  .form-control input:focus + .form-control-label span,
+  .form-control input:valid + .form-control-label span {
+    color: #463830;
+    transform: translateY(-30px);
+    background-color: transparent;
+  }
+
+  .SendNumber {
+    background: transparent;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .SendNumber img {
+    background: transparent;
+    padding-left: 10px;
+  }
+
+  .Footer-Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #91765e47;
+  }
+
+  .Footer-Navigation-img {
+    background: transparent;
+  }
+
+  .Footer-Navigation-img img {
+    width: 100%;
+  }
+
+  .Footer-Navigation-Passerby {
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .Footer-Navigation-Passerby-Delivery-Contact {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Footer-Navigation-Passerby-Delivery {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Contact {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-AboutUs-Articles {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Footer-Navigation-Passerby-AboutUs {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Articles {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Oils-OilPresses {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Footer-Navigation-Passerby-Oils {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-OilPresses {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Telegram-WhatsApp {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Footer-Navigation-Passerby-Telegram {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    text-decoration: underline #463830;
+  }
+
+  .Footer-Navigation-Passerby-WhatsApp {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    text-decoration: underline #463830;
+  }
+
+  .Footer-Navigation-Passerby-Agenda {
+    background: transparent;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Footer-Navigation-Passerby-Number {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Daily {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-CopyRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .CopyRight h1 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Privary-Policy a {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+    text-decoration: underline solid #463830;
+  }
+}
+
+/* The 575px size page the end */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* ===================================This is next page is (SelectionProduct)==================================== */
+
+  .why-choose h1 {
+    font-family: Arsenal;
+    font-size: clamp(32px, 4vw, 50px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .navigation-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 15px;
+  }
+
+  .LinkOils {
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+    border-bottom: 2px solid #7e5531;
+    background: none;
+  }
+
+  .LinkEquipment {
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #a29e9e;
+    background: none;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .benefits-grid-img {
+    grid-area: 3 / 6 / 5 / 8;
+    margin: auto;
+  }
+
+  .benefits-grid-img img {
+    width: 100%;
+  }
+
+  .benefits-grid .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .benefits-grid .items img {
+    width: 20%;
+  }
+
+  .benefits-grid .items h4 {
+    text-align: center;
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .benefits-grid-item1 {
+    grid-area: 2 / 2 / 3 / 5;
+  }
+
+  .benefits-grid-item2 {
+    grid-area: 4 / 1 / 5 / 4;
+  }
+
+  .benefits-grid-item3 {
+    grid-area: 6 / 2 / 7 / 5;
+  }
+
+  .benefits-grid-item4 {
+    grid-area: 2 / 9 / 3 / 12;
+  }
+
+  .benefits-grid-item5 {
+    grid-area: 4 / 10 / 5 / 13;
+  }
+
+  .benefits-grid-item6 {
+    grid-area: 6 / 9 / 7 / 12;
+  }
+
+  .how-to-prepare h1 {
+    font-family: Arsenal;
+    font-size: clamp(32px, 5vw, 50px);
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .prepare-step-to-step {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .prepares {
+    text-align: left;
+    max-width: 350px;
+    margin-bottom: 1.3rem;
+  }
+
+  .prepares p {
+    font-family: Montserrat2;
+    font-size: 19px;
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+
+  .prepares h5 {
+    font-family: Montserrat2;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+    margin-top: 0.2rem;
+  }
+
+  /* ===================================This is next page is (OurOils)==================================== */
+
+  .our-oils {
+    text-align: center;
+  }
+
+  .our-oils h1 {
+    font-family: Arsenal;
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #463830;
+  }
+
+  .CompactAbout--next {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .next--card--compact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .next--card--compact img {
+    width: 20%;
+    min-width: 70px;
+    max-width: 120px;
+  }
+
+  .next--card--compact h4 {
+    font-family: Arsenal;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-details__left {
+    flex: 1;
+    width: 100%;
+    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .product-details__left h1 {
+    font-family: Arsenal;
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+
+  .product-details__left p,
+  .product-details__left__span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .product-details__left__span h4 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 500;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .product-details__image {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-img.normal {
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .product-img.small {
+    width: 30%;
+    max-width: 100%;
+  }
+
+  .product-details__image img {
+    width: 10%;
+    overflow: hidden;
+  }
+
+  .product-details__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 1.2rem;
+    font-size: 15px;
+  }
+
+  .product-details__right h4 {
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .checkbox-to-product {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+  }
+
+  .checkbox-to-product label {
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .BuyTheBottle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .BuyTheBottle span {
+    font-family: Arsenal;
+    font-size: 27px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .BuyTheBottle button {
+    padding: 10px 22px;
+    border: none;
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: #2b3d2e;
+    border-radius: 2px;
+  }
+
+  .BuyTheBottle button img {
+    background: transparent;
+  }
+
+  .Link-To-ButTheBottle {
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+  }
+
+  /* ===================================This is next page is (RawPressed)==================================== */
+
+  .rawpressed-text-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.3rem;
+  }
+
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+
+  .rawpressed-text-section span button {
+    background: none;
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+
+  .Pressed-Oils-Before-Card,
+  .Pressed-Oils-After-Card {
+    gap: 1.2rem;
+    margin: 28px 0;
+    border-radius: 18px;
+    border: 1px solid #91765e;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .Pressed-Oils-Before-Card h4,
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card span,
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card button,
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 12px 0;
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Link-to-catalog {
+    text-align: center;
+  }
+
+  .LinkToCatalog {
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #463830;
+  }
+
+  /* ===================================This is next page is (OilPresses)==================================== */
+
+  .OilPresses-Text {
+    text-align: center;
+  }
+
+  .OilPresses-Text h1 {
+    font-family: Arsenal;
+    font-size: 44px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Presses-Items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .Oil-Presses-Item h4 {
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .PlayedVideo {
+    width: 90%;
+    height: 170px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b3d2e;
+  }
+
+  .PlayedVideo img {
+    background: transparent;
+  }
+
+  .Press-Moduls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+
+  .Presses-Machine-One,
+  .Presses-Machine-Two {
+    gap: 1rem;
+    padding: 20px;
+    border-radius: 18px;
+    border: 2px solid #91765e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Press-About-Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .About-Text-Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .About-Text-Head h1 {
+    font-family: Arsenal;
+    font-size: 28px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Text-Bottom p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Press-Machine-Equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  .Press-Machine-Equipment h3 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .Press-Machine-Equipment ul li {
+    list-style: circle;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Press-Machine-BuySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Press-Machine-BuySection img {
+    width: 50%;
+  }
+
+  .Press-Machine-BuySection span button {
+    font-family: Arsenal;
+    font-size: 18px;
+    color: #463830;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  .PressMachine-BuySeticon-Link {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #463830;
+    padding: 20px;
+  }
+
+  .PressMachine-BuySeticon-Link img {
+    width: 10%;
+    padding-left: 10px;
+  }
+
+  .Slider-Arrow-Left,
+  .Slider-Arrow-Right {
+    padding: 8px 18px;
+    border-radius: 18px;
+    border: 1px solid #91765e;
+    margin: 10px;
+  }
+
+  /* ===================================This is next page is (Additions)==================================== */
+
+  .Additions-Sliders {
+    display: none;
+  }
+
+  .Container-Additions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Additions-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 28px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Additions-Sliders-True {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+  }
+
+  .Addition-Slider-Arrow-Left {
+    border: 1px solid #91765e;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+
+  .Addition-Slider-Arrow-Right {
+    border: 1px solid #91765e;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+
+  .Oil-Raw-PressedAlmond,
+  .Oil-Raw-PressedAlmond-Next {
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Card,
+  .Oil-Raw-PressedAlmond-Next-Card {
+    padding: 20px;
+    gap: 1rem;
+    min-width: 140px;
+    max-width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Card img,
+  .Oil-Raw-PressedAlmond-Next-Card img {
+    width: 86%;
+  }
+
+  .Oil-Raw-PressedAlmond-Card h4,
+  .Oil-Raw-PressedAlmond-Next-Card h4 {
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Card span,
+  .Oil-Raw-PressedAlmond-Next-Card span {
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Card button,
+  .Oil-Raw-PressedAlmond-Next-Card button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+  }
+
+  /* ===================================This is next page is (OurProduction)==================================== */
+
+  .Our-Production-Head-Text {
+    text-align: center;
+  }
+
+  .Our-Production-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .The-Path-To-The-Products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Press {
+    padding: 20px;
+    width: 80%;
+    background-color: #f7e9e0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Press img {
+    background: none;
+    width: 50%;
+  }
+
+  .Path-Products-Link-To-Press {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Path-Products-Link-To-Press span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Press img {
+    width: 10%;
+  }
+
+  .The-Path-To-The-Products-Oils {
+    padding: 20px;
+    width: 80%;
+    background-color: #e2f4db;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Oils img {
+    background: none;
+    width: 50%;
+  }
+
+  .The-Path-To-The-Products-Oils img {
+    background: none;
+    width: 50%;
+  }
+
+  .Path-Products-Link-To-Oils {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Path-Products-Link-To-Oils span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Oils img {
+    width: 10%;
+  }
+
+  .The-Path-To-The-Products-Cake {
+    padding: 20px;
+    width: 80%;
+    background-color: #f1d5b7;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .The-Path-To-The-Products-Cake img {
+    background: none;
+    width: 50%;
+  }
+
+  .Path-Products-Link-To-Cake {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Path-Products-Link-To-Cake span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Cake img {
+    width: 10%;
+  }
+
+  /* ===================================This is next page is (Reviews)==================================== */
+  .Appearance-Two-Rewievs {
+    display: none;
+  }
+
+  .Reviews-Head-Text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .Reviews-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: clamp(28px, 4vw, 40px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 1rem;
+  }
+
+  .Reviews-Slider-Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    flex: 1;
+    padding: 0 1rem;
+  }
+
+  .Reviews-Slider-One-Page,
+  .Reviews-Slider-Two-Page,
+  .Reviews-Slider-Three-Page {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+
+  .Rewievs-Oil-About-Data {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .Rewievs-Oil-About-Data h1 {
+    font-family: Arsenal;
+    font-size: 22px;
+    color: #463830;
+    margin-bottom: 0.5rem;
+  }
+
+  .Rewievs-Oil-About-Data span {
+    font-family: Montserrat2;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Rewievs-Oil-About-NewSpaper {
+    text-align: left;
+    padding: 14px 28px 34px;
+    border-bottom: 1px solid #91765e4f;
+  }
+
+  .Rewievs-Oil-About-NewSpaper p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 16px;
+  }
+
+  .Rewievs-Oil-Buy .Pressed-Oils-Before-Card {
+    margin: 0;
+    border: none;
+  }
+
+  .Rewievs-Oil-Buy {
+    border: none;
+  }
+
+  .Reviews-Slider-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-direction: row;
+    margin-top: 1.2rem;
+  }
+
+  .Reviews-Slider-btn-Left,
+  .Reviews-Slider-btn-Right {
+    font-size: 16px;
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+
+  /* ===================================This is next page is (QuestionsAndAnswers)==================================== */
+
+  .QuestionsAndAnswers {
+    text-align: center;
+  }
+
+  .QuestionsAndAnswers h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .QuestionsAndAnswers-Comments-One {
+    width: 100%;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .QuestionsAndAnswers-Comments-One span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .QuestionsAndAnswers-Comments-One span h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-One p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-All {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .QuestionsAndAnswers-Comments-All h1 {
+    font-family: Montserrat2;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-All img {
+    width: 2%;
+  }
+
+  .QuestionsAndAnswers-Comments-Two {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-Comments-Three {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-Comments-Four {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-Comments-Five {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .QuestionsAndAnswers-img img {
+    width: 80%;
+  }
+
+  /* ===================================This is next page is (Footer)==================================== */
+
+  .Footer-Background-Div {
+    background: linear-gradient(to bottom, #e3f2e1 0%, #fdfcf6 100%);
+  }
+
+  .GetConsultation {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background: none;
+  }
+
+  .GetConsultation-Comment {
+    text-align: center;
+    background: transparent;
+  }
+
+  .GetConsultation-Comment h1 {
+    background: transparent;
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .form-control input {
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 2px #91765e solid;
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #463830;
+  }
+
+  .form-control input::placeholder {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: #91765e;
+  }
+
+  .form-control .form-control-label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+    background: none;
+  }
+
+  .form-control .form-control-label span {
+    display: inline-block;
+    font-family: Montserrat2;
+    font-size: 18px;
+    min-width: 5px;
+    color: #463830;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: transparent;
+  }
+
+  .form-control input:focus + .form-control-label span,
+  .form-control input:valid + .form-control-label span {
+    color: #463830;
+    transform: translateY(-30px);
+    background-color: transparent;
+  }
+
+  .SendNumber {
+    background: transparent;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .SendNumber img {
+    background: transparent;
+    padding-left: 10px;
+  }
+
+  .Footer-Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #91765e47;
+  }
+
+  .Footer-Navigation-img {
+    background: transparent;
+  }
+
+  .Footer-Navigation-img img {
+    width: 80%;
+  }
+
+  .Footer-Navigation-Passerby {
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .Footer-Navigation-Passerby-Delivery-Contact {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Footer-Navigation-Passerby-Delivery {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Contact {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-AboutUs-Articles {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Footer-Navigation-Passerby-AboutUs {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Articles {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Oils-OilPresses {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Footer-Navigation-Passerby-Oils {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-OilPresses {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Telegram-WhatsApp {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Footer-Navigation-Passerby-Telegram {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    text-decoration: underline #463830;
+  }
+
+  .Footer-Navigation-Passerby-WhatsApp {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    text-decoration: underline #463830;
+  }
+
+  .Footer-Navigation-Passerby-Agenda {
+    background: transparent;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Footer-Navigation-Passerby-Number {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-Navigation-Passerby-Daily {
+    font-family: Montserrat2;
+    font-size: 80%;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-CopyRight {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .CopyRight h1 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Privary-Policy a {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+    text-decoration: underline solid #463830;
+  }
+}
+
+/* The 767px size page the end */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* ===================================SelectionProduct==================================== */
+
+  .why-choose h1 {
+    font-family: Arsenal;
+    font-size: clamp(42px, 4vw, 56px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .navigation-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .LinkOils {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 500;
+    color: #463830;
+    border-bottom: 3px solid #7e5531;
+    background: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .LinkOils:hover {
+    color: #7e5531;
+  }
+
+  .LinkEquipment {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 400;
+    color: #a29e9e;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .LinkEquipment:hover {
+    color: #463830;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .benefits-grid-img {
+    grid-area: 3 / 5 / 5 / 9;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefits-grid-img img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  .benefits-grid .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .benefits-grid .items:hover {
+    transform: translateY(-5px);
+  }
+
+  .benefits-grid .items img {
+    width: 30%;
+    min-width: 50px;
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 1rem;
+    background: none;
+  }
+
+  .benefits-grid .items h4 {
+    text-align: center;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    line-height: 1.4;
+    background: none;
+  }
+
+  .benefits-grid-item1 {
+    grid-area: 2 / 1 / 3 / 4;
+  }
+
+  .benefits-grid-item2 {
+    grid-area: 4 / 1 / 5 / 4;
+  }
+
+  .benefits-grid-item3 {
+    grid-area: 6 / 1 / 7 / 4;
+  }
+
+  .benefits-grid-item4 {
+    grid-area: 2 / 10 / 3 / 13;
+  }
+
+  .benefits-grid-item5 {
+    grid-area: 4 / 10 / 5 / 13;
+  }
+
+  .benefits-grid-item6 {
+    grid-area: 6 / 10 / 7 / 13;
+  }
+
+  .how-to-prepare h1 {
+    font-family: Arsenal;
+    font-size: clamp(42px, 5vw, 56px);
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .prepare-step-to-step {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .prepares {
+    text-align: left;
+    max-width: 300px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .prepares:hover {
+    transform: translateY(-5px);
+  }
+
+  .prepares p {
+    font-family: Montserrat2;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 1rem;
+    text-align: left;
+    background: none;
+  }
+
+  .prepares h5 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.5;
+    background: none;
+  }
+
+  /* ===================================OurOils==================================== */
+
+  .our-oils {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .our-oils h1 {
+    font-family: Arsenal;
+    font-size: clamp(42px, 4vw, 56px);
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #463830;
+  }
+
+  .CompactAbout--next {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .next--card--compact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    min-width: 120px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  .next--card--compact:hover {
+    transform: translateY(-10px);
+  }
+
+  .next--card--compact img {
+    width: 30%;
+    min-width: 70px;
+    max-width: 100px;
+    height: auto;
+  }
+
+  .next--card--compact h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+    text-align: center;
+  }
+
+  .product-datails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 4rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product-details__left {
+    flex: 1;
+    max-width: 400px;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .product-details__left h1 {
+    font-family: Arsenal;
+    font-weight: 700;
+    font-size: clamp(32px, 4vw, 42px);
+    color: #463830;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-details__left p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .product-details__left__span {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-details__left__span h4 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .product-details__left__span p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .product-details__image {
+    flex: 1;
+    max-width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-img.normal {
+    width: 70%;
+    max-width: 100%;
+  }
+
+  .product-img.small {
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .product-details__image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-details__right {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .product-details__right h4 {
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+  }
+
+  .checkbox-to-product {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .checkbox-to-product input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7e5531;
+    accent-color: #7e5531;
+    cursor: pointer;
+  }
+
+  .checkbox-to-product label {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    cursor: pointer;
+  }
+
+  .checkbox-to-product label span {
+    font-size: 14px;
+    color: #91765e;
+  }
+
+  .BuyTheBottle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .BuyTheBottle span {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .BuyTheBottle button {
+    padding: 16px 28px;
+    border: none;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #2b3d2e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .BuyTheBottle button img {
+    background: transparent;
+    width: 16px;
+    height: 16px;
+  }
+
+  .Link-To-ButTheBottle {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+  }
+
+  /* ===================================RawPressed==================================== */
+
+  .rawpressed-text-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    flex: 1;
+  }
+
+  .rawpressed-text-section span button {
+    background: none;
+    border: 2px solid #91765e;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+
+  .rawpressed-text-section span button:hover {
+    background-color: #91765e;
+    color: white;
+    transform: translateY(-2px);
+  }
+
+  .Pressed-Oils-Before-Card,
+  .Pressed-Oils-After-Card {
+    gap: 2rem;
+    margin: 40px auto;
+    max-width: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    transition: transform 0.3s ease;
+  }
+
+  .Pressed-Oils-Before-Card:hover,
+  .Pressed-Oils-After-Card:hover {
+    transform: translateY(-5px);
+  }
+
+  .Pressed-Oils-Before-Card h4,
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 22px;
+    font-weight: 500;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Pressed-Oils-Before-Card span,
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Pressed-Oils-Before-Card button,
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #91765e;
+    border-bottom: 2px solid #91765e;
+    padding: 18px 0;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+
+  .Pressed-Oils-Before-Card button:hover,
+  .Pressed-Oils-After-Card button:hover {
+    background-color: #f5f5f5;
+  }
+
+  .Link-to-catalog {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .LinkToCatalog {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #463830;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .LinkToCatalog:hover {
+    color: #7e5531;
+  }
+
+  .LinkToCatalog img {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* ===================================OilPresses==================================== */
+
+  .OilPresses-Text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .OilPresses-Text h1 {
+    font-family: Arsenal;
+    font-size: 48px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Presses-Items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Oil-Presses-Item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    min-width: 180px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .Oil-Presses-Item:hover {
+    transform: translateY(-3px);
+  }
+
+  .Oil-Presses-Item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .Oil-Presses-Item h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .PlayedVideo {
+    width: 100%;
+    max-width: 1000px;
+    height: 280px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b3d2e;
+    margin: 0 auto 4rem auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .PlayedVideo:hover {
+    transform: scale(1.02);
+  }
+
+  .PlayedVideo img {
+    background: transparent;
+    width: 60px;
+    height: 60px;
+  }
+
+  .Press-Moduls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .Presses-Machine-One,
+  .Presses-Machine-Two {
+    width: 100%;
+    gap: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+    border: 2px solid #91765e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+  }
+
+  .Presses-Machine-One:hover,
+  .Presses-Machine-Two:hover {
+    transform: translateY(-5px);
+  }
+
+  .Press-About-Text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .About-Text-Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .About-Text-Head h1 {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Text-Head img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .About-Text-Bottom p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .Press-Machine-Equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.5rem;
+  }
+
+  .Press-Machine-Equipment h3 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .Press-Machine-Equipment ul {
+    padding-left: 20px;
+  }
+
+  .Press-Machine-Equipment ul li {
+    list-style: disc;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .Press-Machine-BuySection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .Press-Machine-BuySection img {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .Press-Machine-BuySection span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .Press-Machine-BuySection span button {
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .PressMachine-BuySeticon-Link {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .PressMachine-BuySeticon-Link img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  .Press-Machine-TwoImg {
+    width: 100%;
+  }
+
+  .Slider-Presses-Machine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .Slider-Arrow-Left,
+  .Slider-Arrow-Right {
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: 2px solid #91765e;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  /* ===================================Additions==================================== */
+
+  .Additions-Sliders {
+    display: none;
+  }
+
+  .Container-Additions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 4rem;
+  }
+
+  .Additions-Head-Text {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .Additions-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Additions-Sliders-True {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+  }
+
+  .Addition-Slider-Arrow-Left,
+  .Addition-Slider-Arrow-Right {
+    border: 2px solid #91765e;
+    background: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .Addition-Slider-Arrow-Left:hover,
+  .Addition-Slider-Arrow-Right:hover {
+    background-color: #91765e;
+    color: white;
+  }
+
+  .Oil-Raw-PressedAlmond,
+  .Oil-Raw-PressedAlmond-Next {
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Oil-Raw-PressedAlmond-Card,
+  .Oil-Raw-PressedAlmond-Next-Card {
+    padding: 2rem;
+    gap: 1.5rem;
+    min-width: 200px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .Oil-Raw-PressedAlmond-Card:hover,
+  .Oil-Raw-PressedAlmond-Next-Card:hover {
+    transform: translateY(-5px);
+  }
+
+  .Oil-Raw-PressedAlmond-Card img,
+  .Oil-Raw-PressedAlmond-Next-Card img {
+    width: 100%;
+    max-width: 120px;
+  }
+
+  .Oil-Raw-PressedAlmond-Card h4,
+  .Oil-Raw-PressedAlmond-Next-Card h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Card span,
+  .Oil-Raw-PressedAlmond-Next-Card span {
+    font-family: Arsenal;
+    font-size: 22px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Card button,
+  .Oil-Raw-PressedAlmond-Next-Card button {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 0;
+    border: none;
+    border-top: 2px solid #91765e;
+    border-bottom: 2px solid #91765e;
+    background: transparent;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* ===================================OurProduction==================================== */
+
+  .Our-Production-Head-Text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .Our-Production-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 46px;
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .The-Path-To-The-Products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .The-Path-To-The-Products-Press {
+    padding: 3rem;
+    width: 300px;
+    background-color: #f7e9e0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .The-Path-To-The-Products-Press img {
+    background: none;
+    width: 60%;
+    max-width: 120px;
+  }
+
+  .Path-Products-Link-To-Press {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .Path-Products-Link-To-Press span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Press img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  .The-Path-To-The-Products-Oils {
+    padding: 3rem;
+    width: 300px;
+    background-color: #e2f4db;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .The-Path-To-The-Products-Oils img {
+    background: none;
+    width: 60%;
+    max-width: 120px;
+  }
+
+  .Path-Products-Link-To-Oils {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .Path-Products-Link-To-Oils span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Oils img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  .The-Path-To-The-Products-Cake {
+    padding: 3rem;
+    width: 300px;
+    background-color: #f1d5b7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .The-Path-To-The-Products-Cake img {
+    background: none;
+    width: 60%;
+    max-width: 120px;
+  }
+
+  .Path-Products-Link-To-Cake {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .Path-Products-Link-To-Cake span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Cake img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  /* ===================================Reviews==================================== */
+  .Appearance-Two-Rewievs {
+    display: none;
+  }
+
+  .Reviews-Head-Text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .Reviews-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: clamp(38px, 4vw, 48px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 2rem;
+  }
+
+  .Reviews-Slider-Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .Reviews-Slider-One-Page,
+  .Reviews-Slider-Two-Page,
+  .Reviews-Slider-Three-Page {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 3rem;
+    border: 2px solid #91765e;
+    border-radius: 20px;
+    padding: 2.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  .Rewievs-Oil-About-Data {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .Rewievs-Oil-About-Data h1 {
+    font-family: Arsenal;
+    font-size: 24px;
+    color: #463830;
+    margin-bottom: 1rem;
+  }
+
+  .Rewievs-Oil-About-Data span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Rewievs-Oil-About-NewSpaper {
+    text-align: left;
+    padding: 20px 30px 35px;
+    border-bottom: 2px solid #91765e4f;
+  }
+
+  .Rewievs-Oil-About-NewSpaper p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .Reviews-Slider-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .Reviews-Slider-btn-Left,
+  .Reviews-Slider-btn-Right {
+    font-size: 16px;
+    border: 2px solid #91765e;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  /* ===================================QuestionsAndAnswers==================================== */
+
+  .QuestionsAndAnswers {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .QuestionsAndAnswers h1 {
+    font-family: Arsenal;
+    font-size: clamp(38px, 5vw, 52px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 4rem;
+  }
+
+  .QuestionsAndAnswers-Comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .QuestionsAndAnswers-Comments-Left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .QuestionsAndAnswers-Comments-One {
+    width: 100%;
+    border-top: 2px solid #91765e;
+    border-bottom: 2px solid #91765e;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .QuestionsAndAnswers-Comments-One span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .QuestionsAndAnswers-Comments-One span h1 {
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+    text-align: left;
+  }
+
+  .QuestionsAndAnswers-Comments-One p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
+
+  .QuestionsAndAnswers-Comments-All {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .QuestionsAndAnswers-Comments-All h1 {
+    font-family: Montserrat2;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-All img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .QuestionsAndAnswers-Comments-Two,
+  .QuestionsAndAnswers-Comments-Three,
+  .QuestionsAndAnswers-Comments-Four,
+  .QuestionsAndAnswers-Comments-Five {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .QuestionsAndAnswers-img img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* ===================================Footer==================================== */
+
+  .Footer-Background-Div {
+    background: linear-gradient(to bottom, #e3f2e1 0%, #fdfcf6 100%);
+    padding: 4rem 2rem;
+  }
+
+  .GetConsultation {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    background: none;
+    margin-bottom: 4rem;
+  }
+
+  .GetConsultation-Comment {
+    text-align: center;
+    background: transparent;
+  }
+
+  .GetConsultation-Comment h1 {
+    background: transparent;
+    font-family: Arsenal;
+    font-size: clamp(38px, 5vw, 52px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .form-control {
+    position: relative;
+    margin: 25px 0 45px;
+    width: 280px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .form-control input {
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 3px #91765e solid;
+    display: block;
+    padding: 18px 0;
+    font-size: 20px;
+    color: #463830;
+    transition: border-color 0.3s ease;
+  }
+
+  .form-control input::placeholder {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: #7e5531;
+  }
+
+  .form-control .form-control-label {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    pointer-events: none;
+    background: none;
+  }
+
+  .form-control .form-control-label span {
+    display: inline-block;
+    font-family: Montserrat2;
+    font-size: 20px;
+    min-width: 5px;
+    color: #463830;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: transparent;
+  }
+
+  .form-control input:focus + .form-control-label span,
+  .form-control input:valid + .form-control-label span {
+    color: #7e5531;
+    transform: translateY(-32px);
+    background-color: transparent;
+  }
+
+  .SendNumber {
+    background: transparent;
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 600;
+    color: #463830;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .SendNumber:hover {
+    color: #7e5531;
+  }
+
+  .SendNumber img {
+    background: transparent;
+    width: 16px;
+    height: 16px;
+  }
+
+  .Footer-Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: transparent;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #91765e47;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  .Footer-Navigation-img {
+    background: transparent;
+    flex: 1;
+    min-width: 180px;
+  }
+
+  .Footer-Navigation-img img {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .Footer-Navigation-Passerby {
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5rem;
+    flex: 2;
+  }
+
+  .Footer-Navigation-Passerby-Delivery-Contact,
+  .Footer-Navigation-Passerby-AboutUs-Articles,
+  .Footer-Navigation-Passerby-Oils-OilPresses,
+  .Footer-Navigation-Passerby-Telegram-WhatsApp {
+    background: transparent;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .Footer-Navigation-Passerby-Delivery,
+  .Footer-Navigation-Passerby-Contact,
+  .Footer-Navigation-Passerby-AboutUs,
+  .Footer-Navigation-Passerby-Articles,
+  .Footer-Navigation-Passerby-Oils,
+  .Footer-Navigation-Passerby-OilPresses {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .Footer-Navigation-Passerby-Delivery:hover,
+  .Footer-Navigation-Passerby-Contact:hover,
+  .Footer-Navigation-Passerby-AboutUs:hover,
+  .Footer-Navigation-Passerby-Articles:hover,
+  .Footer-Navigation-Passerby-Oils:hover,
+  .Footer-Navigation-Passerby-OilPresses:hover {
+    color: #7e5531;
+  }
+
+  .Footer-Navigation-Passerby-Telegram,
+  .Footer-Navigation-Passerby-WhatsApp {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    text-decoration: underline #463830;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .Footer-Navigation-Passerby-Telegram:hover,
+  .Footer-Navigation-Passerby-WhatsApp:hover {
+    color: #7e5531;
+    text-decoration: underline #7e5531;
+  }
+
+  .Footer-Navigation-Passerby-Agenda {
+    background: transparent;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .Footer-Navigation-Passerby-Number,
+  .Footer-Navigation-Passerby-Daily {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-CopyRight {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .CopyRight h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Privary-Policy a {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    text-decoration: underline solid #463830;
+    transition: color 0.3s ease;
+  }
+
+  .Privary-Policy a:hover {
+    color: #7e5531;
+    text-decoration: underline solid #7e5531;
+  }
+}
+
+/* The 991px size page teh end */
+
+/* The Full screen  */
+
+@media (min-width: 992px) {
+  /* ===================================SelectionProduct==================================== */
+
+  .why-choose h1 {
+    font-family: Arsenal;
+    font-size: clamp(42px, 4vw, 56px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .navigation-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .LinkOils {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 500;
+    color: #463830;
+    border-bottom: 3px solid #7e5531;
+    background: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .LinkOils:hover {
+    color: #7e5531;
+  }
+
+  .LinkEquipment {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 400;
+    color: #a29e9e;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .LinkEquipment:hover {
+    color: #463830;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .benefits-grid-img {
+    grid-area: 3 / 5 / 5 / 9;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefits-grid-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .benefits-grid .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .benefits-grid .items:hover {
+    transform: translateY(-5px);
+  }
+
+  .benefits-grid .items img {
+    width: 30%;
+    min-width: 50px;
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 1rem;
+    background: none;
+  }
+
+  .benefits-grid .items h4 {
+    text-align: center;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    line-height: 1.4;
+    background: none;
+  }
+
+  .benefits-grid-item1 {
+    grid-area: 2 / 1 / 3 / 4;
+  }
+
+  .benefits-grid-item2 {
+    grid-area: 4 / 1 / 5 / 4;
+  }
+
+  .benefits-grid-item3 {
+    grid-area: 6 / 1 / 7 / 4;
+  }
+
+  .benefits-grid-item4 {
+    grid-area: 2 / 10 / 3 / 13;
+  }
+
+  .benefits-grid-item5 {
+    grid-area: 4 / 10 / 5 / 13;
+  }
+
+  .benefits-grid-item6 {
+    grid-area: 6 / 10 / 7 / 13;
+  }
+
+  .how-to-prepare h1 {
+    font-family: Arsenal;
+    font-size: clamp(42px, 5vw, 56px);
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .prepare-step-to-step {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .prepares {
+    text-align: left;
+    max-width: 300px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .prepares:hover {
+    transform: translateY(-5px);
+  }
+
+  .prepares p {
+    font-family: Montserrat2;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 1rem;
+    text-align: left;
+    background-color: none;
+  }
+
+  .prepares h5 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.5;
+    background-color: none;
+  }
+  /* ===================================OurOils==================================== */
+
+  .our-oils {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .our-oils h1 {
+    font-family: Arsenal;
+    font-size: clamp(42px, 4vw, 56px);
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #463830;
+  }
+
+  .CompactAbout--next {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    max-width: 1400px;
+  }
+
+  .next--card--compact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    min-width: 120px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  .next--card--compact:hover {
+    transform: translateY(-10px);
+  }
+
+  .next--card--compact img {
+    width: 30%;
+    min-width: 70px;
+    max-width: 100px;
+    height: auto;
+  }
+
+  .next--card--compact h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+    text-align: center;
+  }
+
+  .product-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    min-height: 400px;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: hidden;
+  }
+
+  .product-details__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    max-width: 300px;
+  }
+
+  .product-details__left h1 {
+    font-family: Arsenal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #463830;
+  }
+
+  .product-details__left p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .product-details__left__span {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .product-details__left__span h4 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .product-details__left__span p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .product-details__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .product-img.normal {
+    width: 70%;
+    max-width: 100%;
+  }
+
+  .product-img.small {
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .product-details__image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-details__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex: 1;
+    max-width: 300px;
+  }
+
+  .product-details__right h4 {
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+  }
+
+  .checkbox-to-product {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .checkbox-to-product input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7e5531;
+    accent-color: #7e5531;
+    cursor: pointer;
+  }
+
+  .checkbox-to-product label {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    cursor: pointer;
+  }
+
+  .checkbox-to-product label span {
+    font-size: 14px;
+    color: #91765e;
+  }
+
+  .BuyTheBottle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .BuyTheBottle span {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .BuyTheBottle button {
+    padding: 16px 28px;
+    border: none;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #2b3d2e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .BuyTheBottle button img {
+    background: transparent;
+    width: 16px;
+    height: 16px;
+  }
+
+  .Link-To-ButTheBottle {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+  }
+
+  /* ===================================RawPressed==================================== */
+
+  .rawpressed-text-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    flex: 1;
+  }
+
+  .rawpressed-text-section span button {
+    background: none;
+    border: 2px solid #91765e;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+
+  .raw-pressed-oils-before,
+  .raw-pressed-oils-next {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+  }
+
+  .Pressed-Oils-Before-Card,
+  .Pressed-Oils-After-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    flex: 1;
+    max-width: 300px;
+    min-width: 200px;
+    gap: 2rem;
+  }
+
+  .Pressed-Oils-Before-Card h4,
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 22px;
+    font-weight: 500;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Pressed-Oils-Before-Card span,
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Pressed-Oils-Before-Card button,
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: 1px solid white;
+    border-top: 2px solid #91765e;
+    border-bottom: 2px solid #91765e;
+    padding: 18px 0;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+
+  .Pressed-Oils-Before-Card button:hover,
+  .Pressed-Oils-After-Card button:hover {
+    color: #7e5531;
+    border: 1px solid white;
+    border-right: 2px solid #91765e;
+    border-left: 2px solid #91765e;
+  }
+
+  .Link-to-catalog {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .LinkToCatalog {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #463830;
+    text-decoration: underline white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .LinkToCatalog:hover {
+    color: #7e5531;
+    text-decoration: underline #7e5531;
+  }
+
+  /* ===================================OilPresses==================================== */
+
+  .OilPresses-Text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .OilPresses-Text h1 {
+    font-family: Arsenal;
+    font-size: 48px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Presses-Items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Oil-Presses-Item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    min-width: 180px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .Oil-Presses-Item:hover {
+    transform: translateY(-3px);
+  }
+
+  .Oil-Presses-Item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .Oil-Presses-Item h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .PlayedVideo {
+    width: 100%;
+    max-width: 1000px;
+    height: 280px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b3d2e;
+    margin: 0 auto 4rem auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .PlayedVideo:hover {
+    transform: scale(1.02);
+  }
+
+  .PlayedVideo img {
+    background: transparent;
+    width: 60px;
+    height: 60px;
+  }
+
+  .Press-Moduls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .Presses-Machine-One,
+  .Presses-Machine-Two {
+    width: 100%;
+    gap: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+    border: 2px solid #91765e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+  }
+
+  .Press-About-Text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .About-Text-Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .About-Text-Head h1 {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Text-Head img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .About-Text-Bottom p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .Press-Machine-Equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.5rem;
+  }
+
+  .Press-Machine-Equipment h3 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 600;
+    color: #91765e;
+    text-transform: uppercase;
+  }
+
+  .Press-Machine-Equipment ul {
+    padding-left: 20px;
+  }
+
+  .Press-Machine-Equipment ul li {
+    list-style: disc;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .Press-Machine-BuySection {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .Press-Machine-BuySection img {
+    width: 250px;
+  }
+
+  .Press-Machine-BuySection span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .Press-Machine-BuySection span button {
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .PressMachine-BuySeticon-Link {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .PressMachine-BuySeticon-Link img {
+    padding: 10px;
+    width: 50px;
+  }
+
+  .Press-Machine-TwoImg {
+    width: 100%;
+  }
+
+  .Slider-Presses-Machine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .Slider-Arrow-Left,
+  .Slider-Arrow-Right {
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: 2px solid #91765e;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  /* ===================================Additions==================================== */
+
+  .Additions-Sliders {
+    display: none;
+  }
+
+  .Container-Additions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 4rem;
+  }
+
+  .Additions-Head-Text {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .Additions-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Additions-Sliders-True {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+  }
+
+  .Addition-Slider-Arrow-Left,
+  .Addition-Slider-Arrow-Right {
+    border: 2px solid #91765e;
+    background: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .Oil-Raw-PressedAlmond,
+  .Oil-Raw-PressedAlmond-Next {
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Oil-Raw-PressedAlmond-Card,
+  .Oil-Raw-PressedAlmond-Next-Card {
+    padding: 2rem;
+    gap: 1.5rem;
+    min-width: 200px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .Oil-Raw-PressedAlmond-Card img,
+  .Oil-Raw-PressedAlmond-Next-Card img {
+    width: 100%;
+    max-width: 120px;
+  }
+
+  .Oil-Raw-PressedAlmond-Card h4,
+  .Oil-Raw-PressedAlmond-Next-Card h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+    text-align: center;
+  }
+
+  .Oil-Raw-PressedAlmond-Card span,
+  .Oil-Raw-PressedAlmond-Next-Card span {
+    font-family: Arsenal;
+    font-size: 22px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Oil-Raw-PressedAlmond-Card button,
+  .Oil-Raw-PressedAlmond-Next-Card button {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 0;
+    border: none;
+    border: 1px solid white;
+    border-top: 2px solid #91765e;
+    border-bottom: 2px solid #91765e;
+    background: transparent;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #463830;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .Oil-Raw-PressedAlmond-Card button:hover,
+  .Oil-Raw-PressedAlmond-Next-Card button:hover {
+    border: 1px solid white;
+    border-left: 1px solid #91765e;
+    border-right: 1px solid #91765e;
+  }
+
+  /* ===================================OurProduction==================================== */
+
+  .Our-Production-Head-Text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .Our-Production-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: 46px;
+    font-weight: 600;
+    color: #463830;
+  }
+
+  .The-Path-To-The-Products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+
+  .The-Path-To-The-Products-Press {
+    padding: 3rem;
+    width: 300px;
+    background-color: #f7e9e0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .The-Path-To-The-Products-Press img {
+    background: none;
+    width: 60%;
+    max-width: 120px;
+  }
+
+  .Path-Products-Link-To-Press {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .Path-Products-Link-To-Press span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Press img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  .The-Path-To-The-Products-Oils {
+    padding: 3rem;
+    width: 300px;
+    background-color: #e2f4db;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .The-Path-To-The-Products-Oils img {
+    background: none;
+    width: 60%;
+    max-width: 120px;
+  }
+
+  .Path-Products-Link-To-Oils {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .Path-Products-Link-To-Oils span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Oils img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  .The-Path-To-The-Products-Cake {
+    padding: 3rem;
+    width: 300px;
+    background-color: #f1d5b7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .The-Path-To-The-Products-Cake img {
+    background: none;
+    width: 60%;
+    max-width: 120px;
+  }
+
+  .Path-Products-Link-To-Cake {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .Path-Products-Link-To-Cake span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #463830;
+    background: none;
+  }
+
+  .Path-Products-Link-To-Cake img {
+    width: 50px;
+    margin-left: 10px;
+  }
+
+  /* ===================================Reviews==================================== */
+
+  .Reviews-Head-Text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .Reviews-Head-Text h1 {
+    font-family: Arsenal;
+    font-size: clamp(38px, 4vw, 48px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 2rem;
+  }
+
+  .Reviews-Slider-Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .Reviews-Slider-One-Page,
+  .Reviews-Slider-Two-Page,
+  .Reviews-Slider-Three-Page {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    max-width: 700px;
+    margin-bottom: 3rem;
+    border: 2px solid #91765e;
+    border-radius: 20px;
+    padding: 2.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  .Rewievs-Oil-About-Data {
+    text-align: left;
+    margin-bottom: 2rem;
+    display: none;
+  }
+
+  .Rewievs-Oil-About-NewSpaper {
+    display: none;
+  }
+
+  .Appearance-Two-Rewievs {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 20px;
+  }
+
+  .Appearance-Two-Rewievs .Rewievs-Oil-About-Data-Two {
+    display: block;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .Appearance-Two-Rewievs .Rewievs-Oil-About-Data-Two h1 {
+    font-family: Arsenal;
+    font-size: 24px;
+    color: #463830;
+    margin-bottom: 1rem;
+  }
+
+  .Appearance-Two-Rewievs .Rewievs-Oil-About-Data-Two span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Appearance-Two-Rewievs .Rewievs-Oil-About-NewSpaper-Two {
+    display: block;
+    text-align: left;
+    padding: 20px 30px 35px;
+  }
+
+  .Appearance-Two-Rewievs .Rewievs-Oil-About-NewSpaper-Two p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .Rewievs-Oil-Buy {
+    border-right: 1px solid #7e5531;
+  }
+
+  .Reviews-Slider-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .Reviews-Slider-btn-Left,
+  .Reviews-Slider-btn-Right {
+    font-size: 16px;
+    border: 2px solid #91765e;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  /* ===================================QuestionsAndAnswers==================================== */
+
+  .QuestionsAndAnswers {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .QuestionsAndAnswers h1 {
+    font-family: Arsenal;
+    font-size: clamp(38px, 5vw, 52px);
+    font-weight: 700;
+    color: #463830;
+    margin-bottom: 4rem;
+  }
+
+  .QuestionsAndAnswers-Comments {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    float: left;
+  }
+
+  .QuestionsAndAnswers-Comments-Left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .QuestionsAndAnswers-Comments-One {
+    width: 100%;
+    border-top: 2px solid #91765e;
+    border-bottom: 2px solid #91765e;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .QuestionsAndAnswers-Comments-One span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .QuestionsAndAnswers-Comments-One span h1 {
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+    text-align: left;
+  }
+
+  .QuestionsAndAnswers-Comments-One p {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
+
+  .QuestionsAndAnswers-Comments-All {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .QuestionsAndAnswers-Comments-All h1 {
+    font-family: Montserrat2;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 500;
+    color: #463830;
+  }
+
+  .QuestionsAndAnswers-Comments-All img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .QuestionsAndAnswers-Comments-Two,
+  .QuestionsAndAnswers-Comments-Three,
+  .QuestionsAndAnswers-Comments-Four,
+  .QuestionsAndAnswers-Comments-Five {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #91765e;
+  }
+
+  .QuestionsAndAnswers-img {
+    width: 48%;
+    margin-left: 60%;
+    margin-top: -60%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .QuestionsAndAnswers-img img {
+    width: 100%;
+  }
+
+  /* ===================================Footer==================================== */
+
+  .Footer-Background-Div {
+    background: linear-gradient(to bottom, #e3f2e1 0%, #fdfcf6 100%);
+  }
+
+  .GetConsultation {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    background: none;
+    margin-bottom: 4rem;
+  }
+
+  .GetConsultation-Comment {
+    text-align: center;
+    background: transparent;
+  }
+
+  .GetConsultation-Comment h1 {
+    background: transparent;
+    font-family: Arsenal;
+    font-size: clamp(38px, 5vw, 52px);
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .form-control {
+    position: relative;
+    margin: 25px 0 45px;
+    width: 280px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .form-control input {
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 3px #91765e solid;
+    display: block;
+    padding: 18px 0;
+    font-size: 20px;
+    color: #463830;
+    transition: border-color 0.3s ease;
+  }
+
+  .form-control input::placeholder {
+    font-family: Montserrat2;
+    font-size: 20px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: #7e5531;
+  }
+
+  .form-control .form-control-label {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    pointer-events: none;
+    background: none;
+  }
+
+  .form-control .form-control-label span {
+    display: inline-block;
+    font-family: Montserrat2;
+    font-size: 20px;
+    min-width: 5px;
+    color: #463830;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: transparent;
+  }
+
+  .form-control input:focus + .form-control-label span,
+  .form-control input:valid + .form-control-label span {
+    color: #7e5531;
+    transform: translateY(-32px);
+    background-color: transparent;
+  }
+
+  .SendNumber {
+    background: transparent;
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 600;
+    color: #463830;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .SendNumber:hover {
+    color: #7e5531;
+  }
+
+  .SendNumber img {
+    background: transparent;
+  }
+
+  .Footer-Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: transparent;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #91765e47;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  .Footer-Navigation-img {
+    background: transparent;
+    flex: 1;
+    min-width: 180px;
+  }
+
+  .Footer-Navigation-img img {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .Footer-Navigation-Passerby {
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5rem;
+    flex: 2;
+  }
+
+  .Footer-Navigation-Passerby-Delivery-Contact,
+  .Footer-Navigation-Passerby-AboutUs-Articles,
+  .Footer-Navigation-Passerby-Oils-OilPresses,
+  .Footer-Navigation-Passerby-Telegram-WhatsApp {
+    background: transparent;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .Footer-Navigation-Passerby-Delivery,
+  .Footer-Navigation-Passerby-Contact,
+  .Footer-Navigation-Passerby-AboutUs,
+  .Footer-Navigation-Passerby-Articles,
+  .Footer-Navigation-Passerby-Oils,
+  .Footer-Navigation-Passerby-OilPresses {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .Footer-Navigation-Passerby-Delivery:hover,
+  .Footer-Navigation-Passerby-Contact:hover,
+  .Footer-Navigation-Passerby-AboutUs:hover,
+  .Footer-Navigation-Passerby-Articles:hover,
+  .Footer-Navigation-Passerby-Oils:hover,
+  .Footer-Navigation-Passerby-OilPresses:hover {
+    color: #7e5531;
+  }
+
+  .Footer-Navigation-Passerby-Telegram,
+  .Footer-Navigation-Passerby-WhatsApp {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    text-decoration: underline #463830;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .Footer-Navigation-Passerby-Telegram:hover,
+  .Footer-Navigation-Passerby-WhatsApp:hover {
+    color: #7e5531;
+    text-decoration: underline #7e5531;
+  }
+
+  .Footer-Navigation-Passerby-Agenda {
+    background: transparent;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .Footer-Navigation-Passerby-Number,
+  .Footer-Navigation-Passerby-Daily {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+  }
+
+  .Footer-CopyRight {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .CopyRight h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Privary-Policy a {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    text-decoration: underline solid #463830;
+    transition: color 0.3s ease;
+  }
+
+  .Privary-Policy a:hover {
+    color: #7e5531;
+    text-decoration: underline solid #7e5531;
+  }
+}

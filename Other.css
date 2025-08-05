@@ -1,0 +1,2560 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #fffaf4;
+  outline: none;
+}
+
+@font-face {
+  font-family: Arsenal;
+  src: url(./Fonts/Arsenal-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat2;
+  src: url(./Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.Container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+@media (max-width: 575px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .Res-Nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .Res-Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .LinkMenu {
+    color: #7e5531;
+    font-family: Montserrat2;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .LinkMenu img {
+    margin-right: 10px;
+  }
+
+  .LinkNumber {
+    border-left: 1px solid #91765e61;
+    padding-left: 7px;
+    font-family: Monserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e5531;
+  }
+
+  .Toolbar {
+    display: flex;
+    gap: 10px;
+  }
+
+  .LinkNumber a {
+    font-family: Montserrat2;
+    color: #7e5531;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .LinkContact {
+    padding-left: 20px;
+  }
+
+  .LinkBasket button {
+    border: none;
+    cursor: pointer;
+  }
+
+  /* ===================================This is next section is (Header-Buy-Section)==================================== */
+
+  .Header-Buy-Section {
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .Buy-Product-Img {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: start;
+  }
+
+  .Buy-Product-Img h5 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #91765e;
+  }
+
+  .Buy-Product-Appearance {
+    width: 80%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    background: #f7ebe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ProductBuyAppearance {
+    width: 20%;
+    background: none;
+  }
+
+  .Buy-About-Us {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .About-Appearance {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  .About-Appearance h1 {
+    font-family: Arsenal;
+    font-size: 35px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Appearance p {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-About {
+    display: flex;
+    justify-content: start;
+  }
+
+  .Buy-Price-Btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .Buy-Price-Span {
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Buy-Selected-Size {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: end;
+  }
+
+  .Buy-Selected-Size label {
+    font-family: Montserrat2;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Selected-Size label span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Additions-Oil {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .Buy-Additions-btns {
+    width: 120px;
+    padding: 10px 0;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Buy-Additions-btns button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    outline: none;
+    font-family: Montserrat2;
+    padding: 10px 5px;
+  }
+
+  .Buy-Additions-btns span {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Additions-To-Shop button {
+    border: none;
+    background: #2b3d2e;
+    border-radius: 5px;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 30px;
+  }
+
+  .Buy-Additions-To-Shop button img {
+    background: none;
+  }
+
+  /* ===================================This is next section is (CompactAbout--Next)==================================== */
+
+  .CompactAbout--Next {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .Next--Card--Compact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .Next--Card--Compact img {
+    width: 20%;
+    min-width: 70px;
+    max-width: 120px;
+  }
+
+  .Next--Card--Compact h4 {
+    font-family: Arsenal;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next section is (Comments-Oils)==================================== */
+
+  .Comments-Oils {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+
+  .Comments h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #91765e;
+  }
+
+  .Comments-Description span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-InCooking span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-InCosmetology span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Application-And-Dosage span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Comments-Contains-Span-Fatty-Acids {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Fatty-Acids p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span-Microelements {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Microelements p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span-Vitamins {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Vitamins p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span-Smoke-Point {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Smoke-Point p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next section is (We-Recommend-You-Try-It)==================================== */
+
+  .We-Recommend-You-Try-It {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .We-Recommend-You-Try-It h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .rawpressed-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+  }
+
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+
+  .rawpressed-text-section span button {
+    background: none;
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+
+  .Pressed-Oils-Before-Card,
+  .Pressed-Oils-After-Card {
+    gap: 1.2rem;
+    margin: 28px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .Pressed-Oils-Before-Card h4,
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card span,
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card button,
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 12px 0;
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next Page is (Equipment)==================================== */
+  /* ======================================================================================================= */
+  /* ===================================This is next section is (Filter-Oils)==================================== */
+
+  .Filter-Oils {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fefaf5;
+  }
+
+  .Filter-OnlyOils select,
+  .Filter-OnlyPrice select {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    color: #463830;
+    font-weight: 500;
+    font-family: Montserrat2;
+    appearance: none;
+    cursor: pointer;
+  }
+
+  .Filter-OnlyOils select:focus,
+  .Filter-OnlyPrice select:focus {
+    outline: none;
+  }
+
+  .Filter-OnlyOils,
+  .Filter-OnlyPrice {
+    position: relative;
+  }
+
+  .Filter-OnlyOils::after,
+  .Filter-OnlyPrice::after {
+    content: "▼";
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    pointer-events: none;
+    color: #463830;
+  }
+
+  .Filter-OnlyOils::after {
+    right: 0;
+  }
+
+  /* ===================================This is next section is (Price-1000)==================================== */
+
+  .Price-1000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-First {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .OilsPriceFull {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .OilsPriceFull img {
+    width: 40%;
+  }
+
+  .OilsPriceFull h4 {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .OilsPriceFull span {
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .OilsPriceFull button {
+    padding: 20px 0;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    width: 100%;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Section-ShowMore {
+    width: 100%;
+  }
+
+  .ShowMore {
+    width: 100%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    padding: 10px;
+  }
+
+  .Oils-First-Show-More {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  /* ===================================This is next section is (Price-2000)==================================== */
+
+  .Price-2000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .Oils-Two-Show-More {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  /* ===================================This is next section is (Price-3000)==================================== */
+
+  .Price-3000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .Oils-Three-Show-More {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  /* ===================================This is next section is (Price-4000)==================================== */
+
+  .Price-4000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .Oils-Four-Show-More {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Res-Nav {
+    display: none;
+  }
+
+  .LinkMenu {
+    color: #7e5531;
+    font-family: Montserrat2;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .LinkMenu img {
+    margin-right: 10px;
+  }
+
+  .LinkNumber {
+    border-left: 1px solid #91765e61;
+    padding-left: 7px;
+    font-family: Monserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e5531;
+  }
+
+  .Toolbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .LinkNumber a {
+    font-family: Montserrat2;
+    color: #7e5531;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .LinkContact {
+    padding-left: 20px;
+  }
+
+  .LinkBasket button {
+    border: none;
+    cursor: pointer;
+  }
+
+  /* ===================================This is next section is (Header-Buy-Section)==================================== */
+
+  .Header-Buy-Section {
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .Buy-Product-Img {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: start;
+  }
+
+  .Buy-Product-Img h5 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #91765e;
+  }
+
+  .Buy-Product-Appearance {
+    width: 80%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    background: #f7ebe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ProductBuyAppearance {
+    width: 20%;
+    background: none;
+  }
+
+  .Buy-About-Us {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .About-Appearance {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  .About-Appearance h1 {
+    font-family: Arsenal;
+    font-size: 35px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Appearance p {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-About {
+    display: flex;
+    justify-content: start;
+  }
+
+  .Buy-Price-Btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .Buy-Price-Span {
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Buy-Selected-Size {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: end;
+  }
+
+  .Buy-Selected-Size label {
+    font-family: Montserrat2;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Selected-Size label span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Additions-Oil {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .Buy-Additions-btns {
+    width: 120px;
+    padding: 10px 0;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Buy-Additions-btns button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    outline: none;
+    font-family: Montserrat2;
+    padding: 10px 5px;
+  }
+
+  .Buy-Additions-btns span {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Additions-To-Shop button {
+    border: none;
+    background: #2b3d2e;
+    border-radius: 5px;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 30px;
+  }
+
+  .Buy-Additions-To-Shop button img {
+    background: none;
+  }
+
+  /* ===================================This is next section is (CompactAbout--Next)==================================== */
+
+  .CompactAbout--Next {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .Next--Card--Compact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .Next--Card--Compact img {
+    width: 20%;
+    min-width: 70px;
+    max-width: 120px;
+  }
+
+  .Next--Card--Compact h4 {
+    font-family: Arsenal;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next section is (Comments-Oils)==================================== */
+
+  .Comments-Oils {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+
+  .Comments h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #91765e;
+  }
+
+  .Comments-Description span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-InCooking span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-InCosmetology span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Application-And-Dosage span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .Comments-Contains-Span-Fatty-Acids {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Fatty-Acids p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span-Microelements {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Microelements p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span-Vitamins {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Vitamins p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span-Smoke-Point {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .Comments-Contains-Span-Smoke-Point p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next section is (We-Recommend-You-Try-It)==================================== */
+
+  .We-Recommend-You-Try-It {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .We-Recommend-You-Try-It h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .rawpressed-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+  }
+
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+
+  .rawpressed-text-section span button {
+    background: none;
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+
+  .Pressed-Oils-Before-Card,
+  .Pressed-Oils-After-Card {
+    gap: 1.2rem;
+    margin: 28px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .Pressed-Oils-Before-Card h4,
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card span,
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Pressed-Oils-Before-Card button,
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 12px 0;
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  /* ===================================This is next Page is (Oils)==================================== */
+  /* ======================================================================================================= */
+  /* ===================================This is next section is (Filter-Oils)==================================== */
+
+  .Filter-Oils {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fefaf5;
+  }
+
+  .Filter-OnlyOils select,
+  .Filter-OnlyPrice select {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #463830;
+    font-weight: 500;
+    font-family: Montserrat2;
+    appearance: none;
+    cursor: pointer;
+  }
+
+  .Filter-OnlyOils select:focus,
+  .Filter-OnlyPrice select:focus {
+    outline: none;
+  }
+
+  .Filter-OnlyOils,
+  .Filter-OnlyPrice {
+    position: relative;
+  }
+
+  .Filter-OnlyOils::after,
+  .Filter-OnlyPrice::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    pointer-events: none;
+    color: #463830;
+  }
+
+  .Filter-OnlyOils::after {
+    right: 0;
+  }
+
+  .Filter-OnlyPrice::after {
+    right: 0;
+  }
+  /* ===================================This is next section is (Price-1000)==================================== */
+
+  .Price-1000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-First {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .OilsPriceFull {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .OilsPriceFull img {
+    width: 20%;
+  }
+
+  .OilsPriceFull h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .OilsPriceFull span {
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .OilsPriceFull button {
+    padding: 20px 0;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    width: 100%;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Section-ShowMore {
+    width: 100%;
+  }
+
+  .ShowMore {
+    width: 100%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+    padding: 10px;
+  }
+
+  .Oils-First-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  /* ===================================This is next section is (Price-2000)==================================== */
+
+  .Price-2000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Two {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .Oils-Two-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  /* ===================================This is next section is (Price-3000)==================================== */
+
+  .Price-3000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Three {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .Oils-Three-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  /* ===================================This is next section is (Price-4000)==================================== */
+
+  .Price-4000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Four {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .Oils-Four-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar {
+    display: none;
+  }
+  .Res-Nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 80%;
+    overflow: hidden;
+    padding: 20px;
+    margin: auto;
+    background: none;
+  }
+
+  .Res-Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .LinkMenu {
+    color: #7e5531;
+    font-family: Montserrat2;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .LinkMenu img {
+    margin-right: 10px;
+  }
+  .LinkNumber {
+    border-left: 1px solid #91765e61;
+    padding-left: 7px;
+    font-family: Monserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e5531;
+  }
+  .Toolbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .LinkNumber a {
+    font-family: Montserrat2;
+    color: #7e5531;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .LinkContact {
+    padding-left: 20px;
+  }
+  .LinkBasket button {
+    border: none;
+    cursor: pointer;
+  }
+  /* ===================================This is next section is (Header-Buy-Section)==================================== */
+  .Header-Buy-Section {
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .Buy-Product-Img {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: start;
+    overflow: hidden;
+  }
+  .Buy-Product-Img h5 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #91765e;
+  }
+  .Buy-Product-Appearance {
+    width: 80%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    background: #f7ebe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProductBuyAppearance {
+    width: 10%;
+    background: none;
+  }
+  .Buy-About-Us {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+  .About-Appearance {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+  }
+  .About-Appearance h1 {
+    font-family: Arsenal;
+    font-size: 35px;
+    font-weight: 700;
+    color: #463830;
+  }
+  .About-Appearance p {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Buy-About {
+    display: flex;
+    justify-content: start;
+  }
+  .Buy-Price-Btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+  }
+  .Buy-Price-Span {
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463830;
+  }
+  .Buy-Selected-Size {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: end;
+  }
+  .Buy-Selected-Size label {
+    font-family: Montserrat2;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Buy-Selected-Size label span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Buy-Additions-Oil {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+  .Buy-Additions-btns {
+    width: 120px;
+    padding: 10px 0;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Buy-Additions-btns button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    outline: none;
+    font-family: Montserrat2;
+    padding: 10px 5px;
+  }
+  .Buy-Additions-btns span {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Buy-Additions-To-Shop button {
+    border: none;
+    background: #2b3d2e;
+    border-radius: 5px;
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 30px;
+  }
+  .Buy-Additions-To-Shop button img {
+    background: none;
+  }
+  /* ===================================This is next section is (CompactAbout--Next)==================================== */
+  .CompactAbout--Next {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .Next--Card--Compact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .Next--Card--Compact img {
+    width: 20%;
+    min-width: 70px;
+    max-width: 120px;
+  }
+  .Next--Card--Compact h4 {
+    font-family: Arsenal;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+  /* ===================================This is next section is (Comments-Oils)==================================== */
+  .Comments-Oils {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 90%;
+    border-bottom: 1px solid #91765e;
+    margin: auto;
+  }
+
+  .Comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+  .Comments h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #91765e;
+  }
+  .Comments-Description span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-InCooking span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-InCosmetology span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-Application-And-Dosage span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-Contains-Span {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 2rem;
+  }
+  .Comments-Contains-Span-Fatty-Acids {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .Comments-Contains-Span-Fatty-Acids p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-Contains-Span-Microelements {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .Comments-Contains-Span-Microelements p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-Contains-Span-Vitamins {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .Comments-Contains-Span-Vitamins p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Comments-Contains-Span-Smoke-Point {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .Comments-Contains-Span-Smoke-Point p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+  /* ===================================This is next section is (We-Recommend-You-Try-It)==================================== */
+  .We-Recommend-You-Try-It {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .We-Recommend-You-Try-It h1 {
+    font-family: Arsenal;
+    font-size: 38px;
+    font-weight: 700;
+    color: #463830;
+  }
+  .rawpressed-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  .rawpressed-text-section h1 {
+    font-family: Arsenal;
+    font-size: 32px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+  }
+  .rawpressed-text-section span button {
+    background: none;
+    border: 1px solid #91765e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+
+  .raw-pressed-oils-before,
+  .raw-pressed-oils-next {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Pressed-Oils-Before-Card,
+  .Pressed-Oils-After-Card {
+    gap: 1.2rem;
+    margin: 28px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .Pressed-Oils-Before-Card h4,
+  .Pressed-Oils-After-Card h4 {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Pressed-Oils-Before-Card span,
+  .Pressed-Oils-After-Card span {
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #463830;
+  }
+  .Pressed-Oils-Before-Card button,
+  .Pressed-Oils-After-Card button {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    padding: 12px 0;
+    font-family: Montserrat2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Pressed-Oils-After-Card button:focus,
+  .Pressed-Oils-Before-Card button:focus {
+    border: none;
+    background: none;
+  }
+
+  /* ===================================This is next Page is (Oils)==================================== */
+  /* ======================================================================================================= */
+  /* ===================================This is next section is (Filter-Oils)==================================== */
+
+  .Filter-Oils {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fefaf5;
+  }
+  .Filter-OnlyOils select,
+  .Filter-OnlyPrice select {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #463830;
+    font-weight: 500;
+    font-family: Montserrat2;
+    appearance: none;
+    cursor: pointer;
+  }
+  .Filter-OnlyOils select:focus,
+  .Filter-OnlyPrice select:focus {
+    outline: none;
+  }
+  .Filter-OnlyOils,
+  .Filter-OnlyPrice {
+    position: relative;
+  }
+  .Filter-OnlyOils::after,
+  .Filter-OnlyPrice::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    pointer-events: none;
+    color: #463830;
+  }
+  .Filter-OnlyOils::after {
+    right: 0;
+  }
+  .Filter-OnlyPrice::after {
+    right: 0;
+  }
+
+  /* ===================================This is next section is (Price-1000)==================================== */
+  .Price-1000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+  .Oils-First {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  .OilsPriceFull {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .OilsPriceFull img {
+    width: 20%;
+  }
+  .OilsPriceFull h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .OilsPriceFull span {
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #463830;
+  }
+  .OilsPriceFull button {
+    padding: 20px 0;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    width: 100%;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+  .Section-ShowMore {
+    width: 100%;
+  }
+  .ShowMore {
+    width: 100%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+    padding: 10px;
+  }
+  .Oils-First-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  /* ===================================This is next section is (Price-2000)==================================== */
+  .Price-2000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+  .Oils-Two {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  .Oils-Two-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  /* ===================================This is next section is (Price-3000)==================================== */
+  .Price-3000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+  .Oils-Three {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  .Oils-Three-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  /* ===================================This is next section is (Price-4000)==================================== */
+  .Price-4000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+  .Oils-Four {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+  .Oils-Four-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .LinkMenu img {
+    padding-right: 7px;
+  }
+
+  .Res-Nav {
+    display: none;
+  }
+
+  /* ===================================This is next section is (Header-Buy-Section)==================================== */
+
+  .Header-Buy-Section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Buy-Product-Img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: start;
+  }
+
+  .Buy-Product-Img h5 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #91765e;
+  }
+
+  .Buy-Product-Appearance {
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    background: #f7ebe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ProductBuyAppearance {
+    width: 20%;
+    background: none;
+  }
+
+  .Buy-About-Us {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3rem;
+  }
+
+  .About-Appearance {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .About-Appearance h1 {
+    font-family: Arsenal;
+    font-size: 48px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .About-Appearance p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Price-Btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .Buy-Price-Span {
+    font-family: Arsenal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .Buy-Selected-Size {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+  }
+
+  .Buy-Selected-Size label {
+    font-family: Montserrat2;
+    font-size: 13px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Selected-Size label span {
+    font-family: Montserrat2;
+    font-size: 10px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Buy-Additions-Oil {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .Buy-Additions-btns {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+  }
+
+  .Buy-Additions-btns button {
+    font-family: Montserrat2;
+    font-size: 40px;
+    border: none;
+    color: #463830;
+    cursor: pointer;
+  }
+
+  .Buy-Additions-To-Shop {
+    display: flex;
+    align-items: center;
+  }
+
+  .Buy-Additions-To-Shop button {
+    border: 1px solid white;
+    background-color: #2b3d2e;
+    padding: 10px 25px;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+  }
+
+  .Buy-Additions-To-Shop button img {
+    background: transparent;
+    padding-right: 7px;
+  }
+
+  /* ===================================This is next section is (CompactAbout)==================================== */
+
+  .CompactAbout--Next {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .Next--Card--Compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 150px;
+    padding: 2rem;
+    transition: transform 0.3s;
+  }
+
+  .Next--Card--Compact:hover {
+    transform: translateY(-10px);
+  }
+
+  .Next--Card--Compact img {
+    width: 40%;
+    height: auto;
+    min-width: 60px;
+    max-width: 80px;
+  }
+
+  .Next--Card--Compact h4 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  /* ===================================This is next section is (CompactAbout)==================================== */
+
+  .Comments-Oils {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 4rem;
+  }
+
+  .Comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 80%;
+    padding-right: 50px;
+  }
+
+  .Comments h1 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #91765e;
+  }
+
+  .Comments span {
+    max-width: 500px;
+  }
+
+  .Comments span p {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Comments-Contains-Span {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .Comments-Contains-Span-Fatty-Acids {
+    width: 30%;
+  }
+
+  .Comments-Contains-Span-Microelements {
+    width: 20%;
+  }
+
+  .Comments-Contains-Span-Vitamins {
+    width: 20%;
+  }
+
+  .Comments-Contains-Span-Smoke-Point {
+    width: 20%;
+  }
+
+  /* ===================================This is next section is (CompactAbout)==================================== */
+
+  .We-Recommend-You-Try-It {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .rawpressed-text-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* ===================================This is next Page is (Oils)==================================== */
+  /* ======================================================================================================= */
+  /* ===================================This is next section is (Navbar)==================================== */
+
+  .Navigation-Section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .Res-Nav {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .LinkBasket button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .LinkBasket button span {
+    align-self: center;
+  }
+
+  .LinkBasket button:hover {
+    cursor: pointer;
+  }
+
+  .LinkBasket button:hover span {
+    align-self: flex-start;
+    color: #91765e;
+  }
+
+  /* ===================================This is next section is (Filter-Oils)==================================== */
+
+  .Filter-Oils {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Filter-OnlyOils select,
+  .Filter-OnlyPrice select {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #463830;
+    font-weight: 500;
+    font-family: Montserrat2;
+    appearance: none;
+    cursor: pointer;
+  }
+  .Filter-OnlyOils select:focus,
+  .Filter-OnlyPrice select:focus {
+    outline: none;
+  }
+  .Filter-OnlyOils,
+  .Filter-OnlyPrice {
+    position: relative;
+  }
+  .Filter-OnlyOils::after,
+  .Filter-OnlyPrice::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    pointer-events: none;
+    color: #463830;
+  }
+  .Filter-OnlyOils::after {
+    right: 0;
+  }
+  .Filter-OnlyPrice::after {
+    right: 0;
+  }
+
+  /* ===================================This is next section is (Price-1000)==================================== */
+  .Price-1000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-First {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .OilsPriceFull {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .OilsPriceFull img {
+    width: 120px;
+    height: auto;
+  }
+
+  .OilsPriceFull h4 {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.3;
+  }
+
+  .OilsPriceFull span {
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #463830;
+  }
+
+  .OilsPriceFull button {
+    padding: 20px 0;
+    border: none;
+    border-top: 1px solid #91765e;
+    border-bottom: 1px solid #91765e;
+    width: 100%;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .Section-ShowMore {
+    width: 100%;
+  }
+
+  .ShowMore {
+    width: 100%;
+    border: 1px solid #91765e;
+    border-radius: 30px;
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .Oils-First-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  /* ===================================This is next section is (Price-2000)==================================== */
+  .Price-2000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Two {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .Oils-Two-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  /* ===================================This is next section is (Price-3000)==================================== */
+  .Price-3000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Three {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .Oils-Three-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  /* ===================================This is next section is (Price-4000)==================================== */
+  .Price-4000 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .Oils-Four {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .Oils-Four-Show-More {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+  }
+}
+
+  .Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }

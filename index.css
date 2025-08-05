@@ -1,0 +1,646 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #fffaf4;
+  outline: none;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(Fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: Arsenal;
+  src: url(Fonts/Arsenal-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat2;
+  src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@media (max-width: 575px) {
+  .Appearance-Two {
+    display: none;
+  }
+
+  .Container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .Navbar {
+    display: none;
+  }
+
+  .res-nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .res-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .LinkMenu {
+    color: #7e5531;
+    font-family: Montserrat2;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .LinkMenu img {
+    margin-right: 10px;
+  }
+
+  .LinkNumber {
+    border-left: 1px solid #91765e61;
+    padding-left: 7px;
+    font-family: Monserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e5531;
+  }
+
+  .Toolbar {
+    display: flex;
+    gap: 10px;
+  }
+
+  .LinkNumber a {
+    font-family: Montserrat2;
+    color: #7e5531;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .LinkContact {
+    padding-left: 20px;
+  }
+
+  .LinkBasket button {
+    border: none;
+    cursor: pointer;
+  }
+
+  .MainAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .HeadText h1 {
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 76px);
+    font-weight: bold;
+    color: #463830;
+  }
+
+  .NextText {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .NextText span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .NextText img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .CompactAbout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 1.5rem;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .card--compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .card--compact img {
+    width: 30%;
+    height: auto;
+  }
+
+  .card--compact h4 {
+    font-family: Montserrat2;
+    font-size: 12px;
+    font-weight: 700;
+    color: #463830;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .Appearance-Two {
+    display: none;
+  }
+
+  .Container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .Navbar {
+    display: none;
+  }
+
+  .res-nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .LinkMenu {
+    color: #7e5531;
+    font-family: Montserrat2;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .LinkMenu img {
+    margin-right: 10px;
+  }
+
+  .LinkNumber {
+    border-left: 1px solid #91765e61;
+    padding-left: 10px;
+    font-family: Monserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e5531;
+  }
+
+  .Toolbar {
+    display: flex;
+    gap: 10px;
+  }
+
+  .LinkNumber a {
+    font-family: Montserrat2;
+    color: #7e5531;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .LinkContact {
+    padding-left: 20px;
+  }
+
+  .LinkBasket button {
+    border: none;
+    cursor: pointer;
+  }
+
+  .MainAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .HeadText h1 {
+    padding-top: 30px;
+    font-family: Arsenal;
+    font-size: clamp(30px, 5vw, 76px);
+    font-weight: bold;
+    color: #463830;
+  }
+
+  .NextText {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .NextText span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .NextText img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .CompactAbout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 1.5rem;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .card--compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .card--compact img {
+    width: 30%;
+    height: auto;
+  }
+
+  .card--compact h4 {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 700;
+    color: #463830;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Appearance-Two {
+    display: none;
+  }
+
+  .Container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .res-nav {
+    display: none;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .LinkMenu {
+    color: #7e5531;
+    font-family: Montserrat2;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .LinkMenu:hover {
+    color: #463830;
+  }
+
+  .LinkMenu img {
+    margin-right: 15px;
+  }
+
+  .nav-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .LinkNumber {
+    border-left: 2px solid #91765e61;
+    padding-left: 15px;
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7e5531;
+  }
+
+  .Toolbar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .LinkNumber a {
+    font-family: Montserrat2;
+    color: #7e5531;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .LinkNumber a:hover {
+    color: #463830;
+  }
+
+  .LinkContact {
+    padding-left: 25px;
+  }
+
+  .LinkBasket button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.3s;
+  }
+
+  .LinkBasket button:hover {
+    transform: scale(1.1);
+  }
+
+  .MainAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .HeadText {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .HeadText h1 {
+    font-family: Arsenal;
+    font-size: clamp(48px, 6vw, 84px);
+    font-weight: bold;
+    color: #463830;
+    line-height: 1.2;
+  }
+
+  .NextText {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .NextText-left {
+    flex: 1;
+    max-width: 400px;
+  }
+
+  .NextText span {
+    font-family: Montserrat2;
+    font-size: 18px;
+    font-weight: 400;
+    color: #463830;
+    line-height: 1.6;
+  }
+
+  .NextText-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .NextText img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .CompactAbout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .card--compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 150px;
+    padding: 2rem;
+    transition: transform 0.3s;
+  }
+
+  .card--compact:hover {
+    transform: translateY(-10px);
+  }
+
+  .card--compact img {
+    width: 40%;
+    height: auto;
+    min-width: 60px;
+    max-width: 80px;
+  }
+
+  .card--compact h4 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 992px) {
+  .res-nav {
+    display: none;
+  }
+
+  .Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ToolbarOne {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .LinkMenu {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e5531;
+    text-transform: uppercase;
+  }
+
+  .LinkNumber {
+    font-family: Montserrat2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e5531;
+    text-transform: uppercase;
+    border-left: 1px solid #7e5531;
+    padding-left: 10px;
+  }
+
+  .Toolbar {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .LinkContact {
+    width: 10%;
+  }
+
+  .LinkBasket button {
+    border: none;
+  }
+
+  .MainAbout {
+    width: 100%;
+  }
+
+  .HeadText {
+    display: none;
+  }
+
+  .NextText {
+    display: none;
+  }
+
+  .Appearance-Two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    overflow: hidden;
+  }
+
+  .Appearance-Two .HeadText {
+    display: block;
+  }
+
+  .Appearance-Two .NextText {
+    display: block;
+  }
+
+  .Appearance-Two .HeadText h1 {
+    font-family: Arsenal;
+    font-size: 76px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Appearance-Two .HeadText span {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #463830;
+  }
+
+  .Appearance-Two .NextText img {
+    width: 150%;
+  }
+
+  .CompactAbout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .card--compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 150px;
+    padding: 2rem;
+    transition: transform 0.3s;
+  }
+
+  .card--compact:hover {
+    transform: translateY(-10px);
+  }
+
+  .card--compact img {
+    width: 40%;
+    height: auto;
+    min-width: 60px;
+    max-width: 80px;
+  }
+
+  .card--compact h4 {
+    font-family: Montserrat2;
+    font-size: 16px;
+    font-weight: 700;
+    color: #463830;
+    text-align: center;
+    line-height: 1.4;
+  }
+}
